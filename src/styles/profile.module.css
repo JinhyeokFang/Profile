@@ -1,0 +1,24 @@
+.wrapper {
+    width: 1000px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageSection {
+    width: 300px;
+}
+
+.image {
+    display: block;
+    width: 260px;
+    height: 260px;
+    margin: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.infoSection {
+    width: 700px;
+    padding: 10px 30px;
+}

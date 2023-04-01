@@ -4,7 +4,8 @@ export const Title = () => {
     return (
         <>
             <header className={styles.wrapper}>
-                Jinhy.uk
+                <h1 className={styles.title}>Jinhy.uk</h1>
+                <hr className={styles.bottomLine}/>
             </header>
         </>
     )
