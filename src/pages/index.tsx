@@ -8,6 +8,7 @@ import { OutsourcingProjects } from '@/components/outsourcing-projects'
 import { SideProjects } from '@/components/side-projects'
 import { ETC } from '@/components/etc'
 import { Footer } from '@/components/footer'
+import { FAB } from '@/components/fab'
 
 export default function Index() {
   return (
@@ -19,6 +20,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <FAB />
         <Title />
         <Profile />
         <Skills />

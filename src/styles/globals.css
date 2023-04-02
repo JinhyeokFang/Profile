@@ -8,4 +8,19 @@
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
+  user-select: none;
+}
+
+hr {
+  border-bottom: 1px solid #9b9b9b;
+  margin: 10px 0;
+}
+
+hr.lighter {
+  border-bottom: 1px solid #bbb;
+  margin: 8px 0;
+}
+
+ul {
+  list-style: none;
 }

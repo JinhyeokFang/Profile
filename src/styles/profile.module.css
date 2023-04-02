@@ -1,6 +1,6 @@
 .wrapper {
     width: 1000px;
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -22,3 +22,21 @@
     width: 700px;
     padding: 10px 30px;
 }
+
+.name {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.catchword {
+    font-size: 20px;
+}
+
+.school {
+    font-size: 20px;
+}
+
+.studyPeriod {
+    font-size: 15px;
+}
+

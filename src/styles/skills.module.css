@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 20px;
+}
+
+.skillList {
+    display: flex;
+}
+
+.skillList > li {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
