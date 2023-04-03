@@ -1,3 +1,18 @@
 .wrapper {
     padding: 20px;
 }
+
+.project {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    border: 1px solid #cbcbcb;
+    margin: 10px 0;
+}
+
+.name {
+    font-weight: normal;
+    width: 250px;
+    padding-left: 10px;
+}
