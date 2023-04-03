@@ -6,9 +6,33 @@
   border: none;
 }
 
+body, body[data-theme="light"] {
+  --color: black;
+  --background: white;
+}
+
+body[data-theme="dark"] {
+  --color: white;
+  --background: black;
+}
+
+a {
+  color: var(--color);
+}
+
+a:visited {
+  color: var(--color);
+}
+
 body {
   font-family: 'Noto Sans KR', sans-serif;
   user-select: none;
+
+  color: var(--color);
+  background: var(--background);
+
+  transition: 0.2s color linear;
+  transition: 0.2s background-color linear;
 }
 
 hr {
