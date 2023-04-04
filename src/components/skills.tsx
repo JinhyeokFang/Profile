@@ -4,7 +4,7 @@ export const Skills = () => {
     return (
         <>
             <div className={styles.wrapper}>
-                <h1>Skills</h1>
+                <h1 className={styles.title}>Skills</h1>
                 <h2>Languages (+ runtimes)</h2>
                 <ul className={styles.skillList}>
                     <li>TypeScript</li>
@@ -25,16 +25,14 @@ export const Skills = () => {
                 <ul className={styles.skillList}>
                     <li>Git/Github</li>
                     <li>Github Actions</li>
-                    <li>Linux</li>
                     <li>Nginx</li>
                     <li>Docker</li>
                     <li>AWS</li>
-                    <li>Vercel</li>
                 </ul>
                 <hr className='lighter' />
                 <h2>Databases</h2>
                 <ul className={styles.skillList}>
-                    <li>Mysql</li>
+                    <li>MySQL</li>
                     <li>MongoDB</li>
                 </ul>
             </div>

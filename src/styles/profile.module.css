@@ -1,8 +1,9 @@
 .wrapper {
-    width: 1000px;
+    width: calc(100% - 40px);
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .imageSection {
@@ -14,13 +15,15 @@
     width: 260px;
     height: 260px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 130px;
     object-fit: cover;
+    border: 3px solid #9b9b9b;
 }
 
 .infoSection {
-    width: 700px;
-    padding: 10px 30px;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 40px;
 }
 
 .name {
@@ -33,10 +36,21 @@
 }
 
 .school {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .studyPeriod {
-    font-size: 15px;
+    font-size: 14px;
 }
 
+@media (max-width: 860px) { 
+    .wrapper {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .infoSection {
+        margin: 0;
+    }
+}

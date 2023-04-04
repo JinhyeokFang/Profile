@@ -4,7 +4,7 @@ export const MainProjects = () => {
     return (
         <>
             <div className={styles.wrapper}>
-                <h1>Main Projects</h1>
+                <h1 className={styles.title}>Main Projects</h1>
                 <ul>
                     <li className={styles.project}>
                         <h2 className={styles.name}>Newsfeed</h2>

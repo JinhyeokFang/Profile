@@ -14,7 +14,8 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>ㅁㄴㅇㄹ</title>
+        <title>Jin-hyeok Bang</title>
+        <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="Jin-hyeok Bang Profile" />
         <meta name="description" content="The profile of Jin-hyeok Bang" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,6 +25,7 @@ export default function Index() {
         <meta property="og:description" content="The profile of Jin-hyeok Bang" />
         <meta property="og:image" content="/profile.jpg" />
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
       </Head>
       <main className={styles.main}>
         <FAB />

@@ -2,13 +2,17 @@
     padding: 20px;
 }
 
+.title {
+    padding-bottom: 5px;
+}
+
 .skillList {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .skillList > li {
     font-size: 18px;
-    font-weight: bold;
     margin-right: 10px;
 }
 
