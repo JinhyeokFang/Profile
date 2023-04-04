@@ -25,7 +25,7 @@ export default function Index() {
         <meta property="og:description" content="The profile of Jin-hyeok Bang" />
         <meta property="og:image" content="/profile.jpg" />
         <link rel="icon" href="/favicon.ico" />
-        <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+        <script async src="https://unpkg.com/pwacompat" crossOrigin="anonymous"></script>
       </Head>
       <main className={styles.main}>
         <FAB />
