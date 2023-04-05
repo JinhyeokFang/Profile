@@ -15,6 +15,14 @@
     margin: 10px 0;
 }
 
+.project > div {
+    width: 100%;
+}
+
+.project > div > a {
+    word-wrap: break-word
+}
+
 .name {
     font-weight: normal;
     width: 250px;
