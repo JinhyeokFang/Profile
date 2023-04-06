@@ -14,7 +14,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Jin-hyeok Bang</title>
+        <title>개발자 방진혁</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="Jin-hyeok Bang Profile" />
         <meta name="description" content="The profile of Jin-hyeok Bang" />

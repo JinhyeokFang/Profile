@@ -7,13 +7,13 @@
 }
 
 body, body[data-theme="light"] {
-  --color: black;
+  --color: #111;
   --background: white;
 }
 
 body[data-theme="dark"] {
   --color: white;
-  --background: black;
+  --background: #111;
 }
 
 a {

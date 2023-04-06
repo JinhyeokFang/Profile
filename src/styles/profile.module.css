@@ -7,14 +7,14 @@
 }
 
 .imageSection {
-    width: 300px;
+    width: 290px;
 }
 
 .image {
     display: block;
     width: 260px;
     height: 260px;
-    margin: 20px;
+    margin: 0 20px;
     border-radius: 130px;
     object-fit: cover;
     border: 3px solid #9b9b9b;

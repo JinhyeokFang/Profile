@@ -12,7 +12,9 @@
 
     padding: 10px;
     border: 1px solid #cbcbcb;
-    margin: 10px 0;
+    margin: 15px 0;
+
+    cursor: pointer;
 }
 
 .project > div {
@@ -28,8 +30,8 @@
     padding: 3px;
     border: 1px solid #cbcbcb;
     border-radius: 10px;
-    margin-top: 5px;
-    margin-right: 5px;
+    margin-top: 8px;
+    margin-right: 8px;
 }
 
 .name {
