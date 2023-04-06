@@ -17,9 +17,20 @@
     cursor: pointer;
 }
 
+.project:hover, .project:focus {
+    transition: background-color 0.5s;
+    background: #cbcbcb;
+}
+
+body[data-theme='dark'] .project:hover, 
+body[data-theme='dark'] .project:focus {
+    background: #333;
+}
+
 .tag {
     display: inline-block;
     padding: 3px;
+    background: var(--background);
     border: 1px solid #cbcbcb;
     border-radius: 10px;
     margin-top: 8px;

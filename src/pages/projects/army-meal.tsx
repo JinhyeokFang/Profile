@@ -21,7 +21,7 @@ export default function ArmyMeal() {
         <link rel="icon" href="/favicon.ico" />
         <script async src="https://unpkg.com/pwacompat" crossOrigin="anonymous"></script>
       </Head>
-      <main className={styles.main}>
+      <main className='page'>
         <FAB />
         <Title />
         <Footer />

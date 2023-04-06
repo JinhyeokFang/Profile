@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Index.module.css'
 import { Title } from '@/components/title'
 import { Profile } from '@/components/profile'
 import { Skills } from '@/components/skills'
@@ -27,7 +26,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
         <script async src="https://unpkg.com/pwacompat" crossOrigin="anonymous"></script>
       </Head>
-      <main className={styles.main}>
+      <main className='page'>
         <FAB />
         <Title />
         <Profile />
