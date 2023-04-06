@@ -26,6 +26,10 @@
     margin-left: 40px;
 }
 
+.infoSection > div {
+    padding: 5px 0;
+}
+
 .name {
     font-size: 25px;
     padding-bottom: 5px;

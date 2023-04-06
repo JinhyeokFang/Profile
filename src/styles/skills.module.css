@@ -11,8 +11,9 @@
     flex-wrap: wrap;
 }
 
-.skillList > li {
-    font-size: 18px;
-    margin-right: 10px;
+.skillList * {
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 5px;
 }
 

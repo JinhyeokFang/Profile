@@ -19,6 +19,12 @@ export const SideProjects = () => {
                             <p>사이트 방문 횟수, 시간 통계 웹 서비스</p>
                             <a href="https://github.com/JinhyeokFang/pedometer-server">https://github.com/JinhyeokFang/pedometer-server</a><br />
                             <a href="https://github.com/JinhyeokFang/Pedometer">https://github.com/JinhyeokFang/Pedometer</a>
+                            <p>
+                              <span className={styles.tag}>NestJS</span>
+                              <span className={styles.tag}>Serverless</span>
+                              <span className={styles.tag}>MongoDB</span>
+                              <span className={styles.tag}>Vue</span>
+                            </p>
                         </div>
                     </li>
                     <li className={styles.project}>
@@ -26,6 +32,10 @@ export const SideProjects = () => {
                         <div className={styles.content}>
                             <p>URL 단축 서비스</p>
                             <a href="https://github.com/JinhyeokFang/JinhyeokFang">https://github.com/JinhyeokFang/JinhyeokFang</a>
+                            <p>
+                              <span className={styles.tag}>NextJS</span>
+                              <span className={styles.tag}>AWS DynamoDB</span>
+                            </p>
                         </div>
                     </li>
                 </ul>

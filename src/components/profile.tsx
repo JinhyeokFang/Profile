@@ -24,7 +24,6 @@ export const Profile = () => {
                     </div>
                     <hr className='lighter' />
                     <div>
-                        <h2>학력</h2>
                         <p className={styles.school}>경기대학교 AI컴퓨터공학부 컴퓨터공학전공 <span className={styles.studyPeriod}>(21.03 ~ )</span></p>
                         <p className={styles.school}>선린인터넷고등학교 소프트웨어과 졸업 <span className={styles.studyPeriod}>(18.03 ~ 21.02)</span></p>
                     </div>
