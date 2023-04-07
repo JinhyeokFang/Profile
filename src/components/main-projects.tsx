@@ -13,19 +13,6 @@ export const MainProjects = () => {
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>Main Projects</h1>
                 <ul>
-                    <li className={styles.project} onClick={moveTo('/projects/Newsfeed')}>
-                        <h2 className={styles.name}>Newsfeed</h2>
-                        <div className={styles.content}>
-                            <p>Express & Inversify 기반 자체 프레임워크로 웹 서버 구현</p>
-                            <a href="https://github.com/JinhyeokFang/newsfeed">https://github.com/JinhyeokFang/newsfeed</a>
-                            <p>
-                              <span className={styles.tag}>Express</span>
-                              <span className={styles.tag}>Inversify</span>
-                              <span className={styles.tag}>Jest</span>
-                              <span className={styles.tag}>MySQL</span>
-                            </p>
-                        </div>
-                    </li>
                     <li className={styles.project} onClick={moveTo('/projects/take-me-home')}>
                         <h2 className={styles.name}>Take-Me-Home</h2>
                         <div className={styles.content}>
@@ -49,6 +36,19 @@ export const MainProjects = () => {
                               <span className={styles.tag}>MongoDB</span>
                               <span className={styles.tag}>AWS ECS</span>
                               <span className={styles.tag}>NextJS</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li className={styles.project} onClick={moveTo('/projects/Newsfeed')}>
+                        <h2 className={styles.name}>Newsfeed</h2>
+                        <div className={styles.content}>
+                            <p>Express & Inversify 기반 자체 프레임워크로 웹 서버 구현</p>
+                            <a href="https://github.com/JinhyeokFang/newsfeed">https://github.com/JinhyeokFang/newsfeed</a>
+                            <p>
+                              <span className={styles.tag}>Express</span>
+                              <span className={styles.tag}>Inversify</span>
+                              <span className={styles.tag}>Jest</span>
+                              <span className={styles.tag}>MySQL</span>
                             </p>
                         </div>
                     </li>

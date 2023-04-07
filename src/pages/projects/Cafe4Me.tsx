@@ -3,6 +3,7 @@ import styles from '@/styles/Index.module.css'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
+import { Cafe4MeSection } from '@/components/projects/Cafe4MeSection'
 
 export default function Cafe4Me() {
   return (
@@ -24,6 +25,7 @@ export default function Cafe4Me() {
       <main className='page'>
         <FAB />
         <Title />
+        <Cafe4MeSection />
         <Footer />
       </main>
     </>
