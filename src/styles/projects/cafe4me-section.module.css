@@ -44,8 +44,16 @@
     margin-top: 20px;
 }
 
+.subtitle {
+    padding-left: 8px;
+}
+
+.article > div {
+    padding: 5px;
+}
+
 .article .description {
-    margin-top: 4px;
+    margin: 4px;
 }
 
 @media (max-width: 860px) { 
