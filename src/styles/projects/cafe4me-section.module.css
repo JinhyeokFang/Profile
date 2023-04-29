@@ -56,6 +56,25 @@
     margin: 4px;
 }
 
+.significanceList {
+    list-style: none;
+}
+
+.significance > div {
+    display: flex;
+}
+
+.significance > h3 {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.significance .image {
+    width: 400px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
 @media (max-width: 860px) { 
     .wrapper {
         flex-direction: column;
