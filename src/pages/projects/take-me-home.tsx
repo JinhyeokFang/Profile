@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import styles from '@/styles/Index.module.css'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
+import { TakeMeHomeSection } from '@/sections/take-me-home.section'
 
 export default function TakeMeHome() {
   return (
@@ -24,6 +24,7 @@ export default function TakeMeHome() {
       <main className='page'>
         <FAB />
         <Title />
+        <TakeMeHomeSection />
         <Footer />
       </main>
     </>

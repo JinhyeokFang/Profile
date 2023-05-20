@@ -7,13 +7,13 @@
 }
 
 body, body[data-theme="light"] {
-  --color: #111;
+  --color: #121212;
   --background: white;
 }
 
 body[data-theme="dark"] {
   --color: white;
-  --background: #111;
+  --background: #121212;
 }
 
 .page {
@@ -55,4 +55,8 @@ hr.lighter {
 
 ul {
   list-style: none;
+}
+
+p {
+    font-size: 18px;
 }

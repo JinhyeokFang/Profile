@@ -1,6 +1,10 @@
 import Image from 'next/image'
-import styles from '../../styles/projects/cafe4me-section.module.css'
-import projectImage from '../../../public/cafe4me.png'
+import styles from '../styles/sections.module.css'
+import profileImage from '../../public/screenshots/cafe4me/profile.png'
+import significanceImage1 from '../../public/screenshots/cafe4me/1.png'
+import significanceImage2 from '../../public/screenshots/cafe4me/2.png'
+import significanceImage3 from '../../public/screenshots/cafe4me/3.png'
+import significanceImage4 from '../../public/screenshots/cafe4me/4.png'
 
 export const Cafe4MeSection = () => {
     return (
@@ -8,7 +12,7 @@ export const Cafe4MeSection = () => {
             <div className={styles.wrapper}>
               <header className={styles.header}>
                 <div className={styles.imageSection}>
-                    <Image className={styles.image} src={projectImage} alt="" width="500" height="500" />
+                    <Image className={styles.image} src={profileImage} alt="" width="500" height={500 / 16 * 9} />
                 </div>
                 <div className={styles.infoSection}>
                     <div>
@@ -45,27 +49,27 @@ export const Cafe4MeSection = () => {
                       <li className={styles.significance}>
                         <h3 className={styles.description}>1. AWS로 웹서비스를 처음으로 배포</h3>
                         <div>
-                          <Image className={styles.image} src={projectImage} alt="" width="400" height="400" />
+                          <Image className={styles.image} src={significanceImage1} alt="" width="600" height="400" />
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo libero error quasi dolorem excepturi quo distinctio iusto quia, vero, sint accusamus explicabo veritatis itaque perspiciatis aliquam cupiditate. Itaque, deserunt.
+                            &nbsp;Cafe4Me는 AWS ECS로 배포한 첫 프로젝트입니다. API를 제공하는 Nest.js 서버와 화면을 담당하는 Next.js를 한 컨테이너로 묶어 ECS Fargate로 서비스를 배포했습니다. AWS로 서비스를 배포하면서 AWS의 IAM, VPC, ECR, ECS를 학습하고 실제 활용까지 하였습니다. 비용 절감을 위해 ECS Fargate와 Public Subnet만 사용해 배포했는데, 이로 인해 로드 밸런싱과 도메인 네임 설정이 되지 않는 점이 아쉬웠습니다.
                           </p>
                         </div>
                       </li>
                       <li className={styles.significance}>
-                        <h3 className={styles.description}>2. Github Actions로 CD(Continuous Deployment) 사용</h3>
+                        <h3 className={styles.description}>2. Github Actions로 자동 배포</h3>
                         <div>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo libero error quasi dolorem excepturi quo distinctio iusto quia, vero, sint accusamus explicabo veritatis itaque perspiciatis aliquam cupiditate. Itaque, deserunt.
+                            &nbsp;Git의 Main 브렌치로 Commit-Push하면 Github Action이 자동으로 서비스를 컨테이너화하고 배포합니다. Github Action에서 Docker로 Nest.js와 Next.js를 하나로 컨테이너화하고, AWS ECR로 업로드합니다. 업로드 된 컨테이너는 ECS로 바로 배포됩니다. 배포 파이프라인을 만들면서 Continous Integration을 위해 필요한 테스트 자동화에 관심을 가지게 되어 다음 프로젝트인 Take Me Home에서 테스트 자동화와 TDD를 학습하고 활용하는 계기가 되었습니다.
                           </p>
-                          <Image className={styles.image} src={projectImage} alt="" width="400" height="400" />
+                          <Image className={styles.image} src={significanceImage2} alt="" width="600" height="400" />
                         </div>
                       </li>
                       <li className={styles.significance}>
                         <h3 className={styles.description}>3. Docker로 클라이언트와 서버를 하나의 컨테이너로 묶어 배포</h3>
                         <div>
-                          <Image className={styles.image} src={projectImage} alt="" width="400" height="400" />
+                          <Image className={styles.image} src={significanceImage3} alt="" width="600" height="400" />
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo libero error quasi dolorem excepturi quo distinctio iusto quia, vero, sint accusamus explicabo veritatis itaque perspiciatis aliquam cupiditate. Itaque, deserunt.
+                            &nbsp;백엔드 서버 Nest.js와 HTML/CSS/JS로 빌드된 Next.js를 하나의 컨테이너로 Dockerizing했습니다.
                           </p>
                         </div>
                       </li>
@@ -73,23 +77,19 @@ export const Cafe4MeSection = () => {
                         <h3 className={styles.description}>4. 첫 Next.js 클라이언트 개발</h3>
                         <div>
                           <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo libero error quasi dolorem excepturi quo distinctio iusto quia, vero, sint accusamus explicabo veritatis itaque perspiciatis aliquam cupiditate. Itaque, deserunt.
+                            &nbsp;기존에 사용하던 Vue 대신 Next.js로 클라이언트를 개발한 첫 프로젝트입니다. React가 Vue보다 생태계가 더 크고 Function 기반 Hooks을 사용하기 더 적합하며 React를 사용하는 SPA를 구현하기에 Next.js가 가장 편리하기에 Next.js를 채택했습니다. 배포의 편리성을 위하여 SSR 대신 CSR을 사용한 점이 아쉬웠습니다.
                           </p>
-                          <Image className={styles.image} src={projectImage} alt="" width="400" height="400" />
+                          <Image className={styles.image} src={significanceImage4} alt="" width="600" height="400" />
                         </div>
                       </li>
                     </ol>
                 </div>
                 <hr className='lighter' />
                 <div>
-                    <h2 className={styles.subtitle}>느낀점</h2>
+                    <h2 className={styles.subtitle}>배운점 및 느낀점</h2>
                     <p className={styles.description}>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis illo voluptates beatae, eaque dignissimos aliquam magni ducimus ut quo praesentium, eius similique sint quidem veritatis, blanditiis maiores! Vitae, nobis culpa.
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis illo voluptates beatae, eaque dignissimos aliquam magni ducimus ut quo praesentium, eius similique sint quidem veritatis, blanditiis maiores! Vitae, nobis culpa.
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis illo voluptates beatae, eaque dignissimos aliquam magni ducimus ut quo praesentium, eius similique sint quidem veritatis, blanditiis maiores! Vitae, nobis culpa.
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis illo voluptates beatae, eaque dignissimos aliquam magni ducimus ut quo praesentium, eius similique sint quidem veritatis, blanditiis maiores! Vitae, nobis culpa.
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis illo voluptates beatae, eaque dignissimos aliquam magni ducimus ut quo praesentium, eius similique sint quidem veritatis, blanditiis maiores! Vitae, nobis culpa.
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis illo voluptates beatae, eaque dignissimos aliquam magni ducimus ut quo praesentium, eius similique sint quidem veritatis, blanditiis maiores! Vitae, nobis culpa.
+                      &nbsp;처음으로 Nest.js와 AWS를 활용해 웹서비스를 제작하고 배포한 프로젝트였습니다. API 개발부터 코드 자동 배포까지 서비스를 처음부터 끝까지 개발해볼 수 있는 좋은 경험이었습니다.
+                      
                     </p>
                 </div>
                 <hr className='lighter' />

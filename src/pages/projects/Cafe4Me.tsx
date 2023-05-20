@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from '@/styles/Index.module.css'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { Cafe4MeSection } from '@/components/projects/Cafe4MeSection'
+import { Cafe4MeSection } from '@/sections/Cafe4Me.section'
 
 export default function Cafe4Me() {
   return (

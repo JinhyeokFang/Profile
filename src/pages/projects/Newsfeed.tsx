@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import styles from '@/styles/Index.module.css'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
+import { NewsfeedSection } from '@/sections/newsfeed.section'
 
 export default function Newsfeed() {
   return (
@@ -24,6 +24,7 @@ export default function Newsfeed() {
       <main className='page'>
         <FAB />
         <Title />
+        <NewsfeedSection />
         <Footer />
       </main>
     </>

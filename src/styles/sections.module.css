@@ -15,9 +15,6 @@
 }
 
 .image {
-    display: block;
-    width: 500px;
-    height: 281px;
     object-fit: cover;
 }
 
@@ -67,6 +64,7 @@
 .significance > h3 {
     padding: 10px 0;
     width: 100%;
+    font-size: 20px;
 }
 
 .significance .image {
