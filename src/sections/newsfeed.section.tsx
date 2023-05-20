@@ -16,9 +16,9 @@ export const NewsfeedSection = () => {
                 <div className={styles.infoSection}>
                     <div>
                         <h1 className={styles.name}>Newsfeed</h1>
-                        <p className={styles.description}>Express & Inversify 기반 자체 프레임워크로 서버 구현</p>
+                        <p className={styles.description}>Express & Inversify 기반 자체 프레임워크로 서버 구현 (개발중)</p>
                         <p className={styles.link}>
-                          Github: <a href="https://github.com/JinhyeokFang/newsfeed_with_custom_framework">https://github.com/JinhyeokFang/newsfeed_with_custom_framework</a>
+                          Github: <a href="https://github.com/JinhyeokFang/newsfeed">https://github.com/JinhyeokFang/newsfeed</a>
                         </p>
                     </div>
                     <hr className='lighter' />
@@ -80,7 +80,10 @@ export const NewsfeedSection = () => {
                 <hr className='lighter' />
                 <div>
                     <h2 className={styles.subtitle}>개선이 필요한 점</h2>
-                    <p className={styles.description}>더 많은 경우의 수를 커버하는 테스트 케이스</p>
+                    <p className={styles.description}>CI & CD 구현</p>
+                    <p className={styles.description}>프레임워크에 모듈 시스템 도입</p>
+                    <p className={styles.description}>프레임워크, 비즈니스 로직 분리</p>
+                    <p className={styles.description}>화면 구현</p>
                 </div>
                 <hr className='lighter' />
                 <div>
