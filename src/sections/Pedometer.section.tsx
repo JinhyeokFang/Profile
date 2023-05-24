@@ -26,10 +26,10 @@ export const PedometerSection = () => {
                     <hr className='lighter' />
                     <div>
                       <p>
-                        <span className={styles.tag}>Express</span>
-                        <span className={styles.tag}>Inversify</span>
-                        <span className={styles.tag}>Jest</span>
-                        <span className={styles.tag}>MySQL</span>
+                        <span className={styles.tag}>NestJS</span>
+                        <span className={styles.tag}>Serverless</span>
+                        <span className={styles.tag}>MongoDB</span>
+                        <span className={styles.tag}>Vue</span>
                       </p>
                     </div>
                 </div>
@@ -37,13 +37,13 @@ export const PedometerSection = () => {
               <article className={styles.article}>
                 <div>
                     <h2 className={styles.subtitle}>주요 기능</h2>
-                    <p className={styles.description}>Shelter 모두 불러오기</p>
+                    <p className={styles.description}>-</p>
                 </div>
                 <hr className='lighter' />
                 <div>
                     <h2 className={styles.subtitle}>프로젝트 의의</h2>
                     <ol className={styles.significanceList}>
-                      <h3 className={styles.description}>1. Nest.js와 ORM 없이 Dependency Injection을 기원하는 서버 프레임워크를 구현</h3>
+                      <h3 className={styles.description}>1. -</h3>
                       <li className={styles.significance}>
                         <div>
                           <p>
@@ -55,7 +55,7 @@ export const PedometerSection = () => {
                       <li className={styles.significance}>
                         <Image className={styles.image} src={significanceImage2} alt=""/>
                         <div>
-                          <h3 className={styles.description}>2. 데코레이터와 메타데이터로 횡단관심사 분리</h3>
+                          <h3 className={styles.description}>2. -</h3>
                           <p>
                             &nbsp;
                           </p>
@@ -63,7 +63,7 @@ export const PedometerSection = () => {
                       </li>
                       <li className={styles.significance}>
                         <div>
-                          <h3 className={styles.description}>3. 자체 프레임워크로 Domain Driven Development 구현</h3>
+                          <h3 className={styles.description}>3. -</h3>
                           <p>
                             &nbsp;
                           </p>
@@ -82,10 +82,7 @@ export const PedometerSection = () => {
                 <hr className='lighter' />
                 <div>
                     <h2 className={styles.subtitle}>개선이 필요한 점</h2>
-                    <p className={styles.description}>CI & CD 구현</p>
-                    <p className={styles.description}>프레임워크에 모듈 시스템 도입</p>
-                    <p className={styles.description}>프레임워크, 비즈니스 로직 분리</p>
-                    <p className={styles.description}>화면 구현</p>
+                    <p className={styles.description}>-</p>
                 </div>
                 <hr className='lighter' />
                 <div>

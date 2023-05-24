@@ -35,7 +35,13 @@ export const NewsfeedSection = () => {
               <article className={styles.article}>
                 <div>
                     <h2 className={styles.subtitle}>주요 기능</h2>
-                    <p className={styles.description}>Shelter 모두 불러오기</p>
+                    <p className={styles.description}>계정 생성 / 탈퇴하기</p>
+                    <p className={styles.description}>팔로우 / 언팔로우</p>
+                    <p className={styles.description}>팔로우 된 계정 확인</p>
+                    <p className={styles.description}>글 추가 / 삭제하기</p>
+                    <p className={styles.description}>입력한 계정 글 불러오기</p>
+                    <p className={styles.description}>좋아요 누르기 / 취소하기</p>
+                    <p className={styles.description}>댓글 작성하기 / 지우기</p>
                 </div>
                 <hr className='lighter' />
                 <div>

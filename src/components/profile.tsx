@@ -11,7 +11,7 @@ export const Profile = () => {
                 </div>
                 <div className={styles.infoSection}>
                     <div>
-                        <h1 className={styles.name}><span>개발자 방진혁 | </span><span className={styles.catchword}>성장하는 코드를 지향합니다.</span></h1>
+                        <h1 className={styles.name}><span>개발자 방진혁 | </span><span className={styles.catchword}>성장하는 코드를 지향합니다 :)</span></h1>
                         <p className={styles.description}>
                             미래를 예측하기보단 현재에 집중하고자 노력합니다. <br/>
                             확장성을 고려하는 코드를 지향합니다.

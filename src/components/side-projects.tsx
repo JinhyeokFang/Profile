@@ -13,6 +13,16 @@ export const SideProjects = () => {
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>Side Projects</h1>
                 <ul>
+                    <li className={styles.project} onClick={moveTo('/projects/URL-Shortener')}>
+                        <h2 className={styles.name}>Jinhy.uk</h2>
+                        <div className={styles.content}>
+                            <p>프로필 + URL 단축 서비스</p>
+                            <p>
+                              <span className={styles.tag}>NextJS</span>
+                              <span className={styles.tag}>AWS DynamoDB</span>
+                            </p>
+                        </div>
+                    </li>
                     <li className={styles.project} onClick={moveTo('/projects/army-meal')}>
                         <h2 className={styles.name}>army-meal</h2>
                         <div className={styles.content}>
@@ -28,16 +38,6 @@ export const SideProjects = () => {
                               <span className={styles.tag}>Serverless</span>
                               <span className={styles.tag}>MongoDB</span>
                               <span className={styles.tag}>Vue</span>
-                            </p>
-                        </div>
-                    </li>
-                    <li className={styles.project} onClick={moveTo('/projects/URL-Shortener')}>
-                        <h2 className={styles.name}>URL Shortener</h2>
-                        <div className={styles.content}>
-                            <p>URL 단축 서비스</p>
-                            <p>
-                              <span className={styles.tag}>NextJS</span>
-                              <span className={styles.tag}>AWS DynamoDB</span>
                             </p>
                         </div>
                     </li>
