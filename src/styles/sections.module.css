@@ -9,15 +9,6 @@
     justify-content: space-between;
 }
 
-.imageSection {
-    width: 500px;
-    height: 281px;
-}
-
-.image {
-    object-fit: cover;
-}
-
 .infoSection {
     width: 100%;
     max-width: 700px;
@@ -49,6 +40,11 @@
     padding: 5px;
 }
 
+.functions .description::before {
+    content: "- ";
+    font-weight: bold;
+}
+
 .article .description {
     margin: 4px;
 }
@@ -57,20 +53,23 @@
     list-style: none;
 }
 
-.significance > div {
+.significance {
     display: flex;
+    margin: 10px 0;
 }
 
-.significance > h3 {
+.significance h3 {
     padding: 10px 0;
+    word-break: keep-all;
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .significance .image {
-    width: 400px;
-    padding-right: 30px;
-    padding-left: 10px;
+    padding: 20px;
+    object-fit: cover;
+    max-width: 60%;
+    max-height: 500px;
 }
 
 @media (max-width: 860px) { 

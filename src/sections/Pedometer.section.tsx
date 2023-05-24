@@ -5,7 +5,7 @@ import significanceImage1 from '../../public/screenshots/newsfeed/1.png'
 import significanceImage2 from '../../public/screenshots/newsfeed/2.png'
 import significanceImage3 from '../../public/screenshots/newsfeed/3.png'
 
-export const NewsfeedSection = () => {
+export const PedometerSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
@@ -15,10 +15,12 @@ export const NewsfeedSection = () => {
                 </div>
                 <div className={styles.infoSection}>
                     <div>
-                        <h1 className={styles.name}>Newsfeed</h1>
-                        <p className={styles.description}>Express & Inversify 기반 자체 프레임워크로 서버 구현 (개발중)</p>
+                        <h1 className={styles.name}>Pedometer</h1>
+                        <p className={styles.description}>사이트 방문 횟수, 시간 통계 웹 서비스</p>
                         <p className={styles.link}>
-                          Github: <a href="https://github.com/JinhyeokFang/newsfeed">https://github.com/JinhyeokFang/newsfeed</a>
+                          Github (Server): <a href="https://github.com/JinhyeokFang/pedometer-server">https://github.com/JinhyeokFang/pedometer-server</a>
+                          <br/>
+                          Github (Client): <a href="https://github.com/JinhyeokFang/pedometer-server">https://github.com/JinhyeokFang/pedometer-server</a>
                         </p>
                     </div>
                     <hr className='lighter' />

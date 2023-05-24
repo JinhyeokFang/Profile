@@ -5,7 +5,7 @@ import significanceImage1 from '../../public/screenshots/newsfeed/1.png'
 import significanceImage2 from '../../public/screenshots/newsfeed/2.png'
 import significanceImage3 from '../../public/screenshots/newsfeed/3.png'
 
-export const NewsfeedSection = () => {
+export const ArmyMealSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
@@ -15,10 +15,10 @@ export const NewsfeedSection = () => {
                 </div>
                 <div className={styles.infoSection}>
                     <div>
-                        <h1 className={styles.name}>Newsfeed</h1>
-                        <p className={styles.description}>Express & Inversify 기반 자체 프레임워크로 서버 구현 (개발중)</p>
+                        <h1 className={styles.name}>army-meal</h1>
+                        <p className={styles.description}>국방부 군대 급식 API 모듈</p>
                         <p className={styles.link}>
-                          Github: <a href="https://github.com/JinhyeokFang/newsfeed">https://github.com/JinhyeokFang/newsfeed</a>
+                          Github: <a href="https://github.com/JinhyeokFang/army-meal">https://github.com/JinhyeokFang/army-meal</a>
                         </p>
                     </div>
                     <hr className='lighter' />

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
+import { URLShortenerSection } from '@/sections/URL-Shrotener.section'
 
 export default function URLShortener() {
   return (
@@ -23,6 +24,7 @@ export default function URLShortener() {
       <main className='page'>
         <FAB />
         <Title />
+        <URLShortenerSection />
         <Footer />
       </main>
     </>

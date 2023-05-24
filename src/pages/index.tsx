@@ -32,8 +32,8 @@ export default function Index() {
         <Profile />
         <Skills />
         <MainProjects />
-        <OutsourcingProjects />
         <SideProjects />
+        <OutsourcingProjects />
         <ETC />
         <Footer />
       </main>
