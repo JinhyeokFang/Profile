@@ -79,8 +79,16 @@
         align-items: center;
     }
 
+    .header {
+        flex-direction: column;
+    }
+
     .infoSection {
         margin: 0;
+    }
+
+    .significance {
+        flex-direction: column;
     }
 }
 

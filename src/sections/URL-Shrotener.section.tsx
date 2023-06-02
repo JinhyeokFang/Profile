@@ -18,9 +18,9 @@ export const URLShortenerSection = () => {
                         <h1 className={styles.name}>Jinhy.uk</h1>
                         <p className={styles.description}>프로필 + URL 단축 서비스</p>
                         <p className={styles.link}>
-                          Github: <a href="https://github.com/JinhyeokFang/https-jinhy.uk">https://github.com/JinhyeokFang/https-jinhy.uk</a>
-                          <br />
-                          URL Shortener: <a href="https://jinhy.uk/url">https://jinhy.uk/url</a>
+                          Github: <a href="https://github.com/JinhyeokFang/https-jinhy.uk">https://github.com/JinhyeokFang/https-jinhy.uk</a><br/>
+                          URL 단축 서비스: <a href="https://jinhy.uk/url">https://jinhy.uk/url</a>
+                          프로필: <a href="https://jinhy.uk">https://jinhy.uk</a>
                         </p>
                     </div>
                     <hr className='lighter' />
