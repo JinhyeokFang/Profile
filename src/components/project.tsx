@@ -25,7 +25,8 @@ export const Project = (props: ProjectProps) => {
         { 
           src && 
           (<Image 
-            src={src} 
+            src={src}
+            alt={name} 
             quality={100}
             style={{
               objectFit: 'cover',
