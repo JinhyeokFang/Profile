@@ -3,6 +3,7 @@ import styles from '../styles/etc.module.css'
 export const ETC = () => {
     return (
         <>
+            <hr />
             <div className={styles.wrapper}>
                 <h1 className={styles.title}>ETC</h1>
                 <ul>

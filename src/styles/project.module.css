@@ -1,20 +1,15 @@
-.wrapper {
-    padding: 20px;
-}
-
-.title {
-    padding-bottom: 5px;
-}
-
 .project {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    width: calc(50% - 30px);
 
     padding: 10px;
     border: 1px solid #cbcbcb;
-    margin: 15px 0;
+    margin-top: 10px;
 
     cursor: pointer;
+    text-align: center;
 }
 
 .project:hover, .project:focus {
@@ -32,23 +27,16 @@ body[data-theme='dark'] .project:focus {
 }
 
 .project > div > a {
-    word-wrap: break-word
-}
-
-.tag {
-    display: inline-block;
-    padding: 3px;
-    background: var(--background);
-    border: 1px solid #cbcbcb;
-    border-radius: 10px;
-    margin-top: 8px;
-    margin-right: 8px;
+    word-wrap: break-word;
 }
 
 .name {
-    font-weight: normal;
+    font-size: 20px;
     width: 250px;
-    padding-left: 10px;
+}
+
+.content > p{
+    font-size: 18px;
 }
 
 @media (max-width: 860px) { 

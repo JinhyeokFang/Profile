@@ -1,0 +1,21 @@
+.wrapper {
+    padding: 20px;
+}
+
+.title {
+    padding-bottom: 5px;
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 8px;
+    background: black;
+}

@@ -2,9 +2,7 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Profile } from '@/components/profile'
 import { Skills } from '@/components/skills'
-import { MainProjects } from '@/components/main-projects'
-import { OutsourcingProjects } from '@/components/outsourcing-projects'
-import { SideProjects } from '@/components/side-projects'
+import { ProjectsList } from '@/components/projects-list'
 import { ETC } from '@/components/etc'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
@@ -31,9 +29,7 @@ export default function Index() {
         <Title />
         <Profile />
         <Skills />
-        <MainProjects />
-        <SideProjects />
-        <OutsourcingProjects />
+        <ProjectsList />
         <ETC />
         <Footer />
       </main>
