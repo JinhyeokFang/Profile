@@ -19,6 +19,7 @@ export const Cafe4MeSection = () => {
                         <h1 className={styles.name}>Cafe4Me</h1>
                         <p className={styles.description}>AWS ECS로 자동배포되는 Nest.js + Next.js기반 카페 추천 웹서비스</p>
                         <p className={styles.link}>
+                          사이트: <a href="https://cafe.jinhy.uk">https://cafe.jinhy.uk</a>
                           Github: <a href="https://github.com/JinhyeokFang/Cafe4Me">https://github.com/JinhyeokFang/Cafe4Me</a>
                         </p>
                     </div>

@@ -19,7 +19,9 @@ export const TakeMeHomeSection = () => {
                         <h1 className={styles.name}>take-me-home</h1>
                         <p className={styles.description}>TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버</p>
                         <p className={styles.link}>
+                          사이트: <a href="https://server2.jinhy.uk">https://server2.jinhy.uk</a>
                           Github: <a href="https://github.com/JinhyeokFang/take-me-home">https://github.com/JinhyeokFang/take-me-home</a>
+                          Postman: 준비중
                         </p>
                     </div>
                     <hr className='lighter' />
