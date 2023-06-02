@@ -7,7 +7,7 @@ interface ProjectProps {
   link?: string; // /projects/take-me-home
   title: string; // TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버
   children: React.ReactNode;
-  src?: string | StaticImport;
+  src?: any;
 }
 
 export const Project = (props: ProjectProps) => {
