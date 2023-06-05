@@ -19,7 +19,6 @@ export default function Pedometer() {
         <meta property="og:description" content="Pedometer project by Jin-hyeok Bang" />
         <meta property="og:image" content="/profile.jpg" />
         <link rel="icon" href="/favicon.ico" />
-        <script async src="https://unpkg.com/pwacompat" crossOrigin="anonymous"></script>
       </Head>
       <main className='page'>
         <FAB />

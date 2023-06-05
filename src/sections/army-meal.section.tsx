@@ -5,6 +5,14 @@ import significanceImage1 from '../../public/screenshots/newsfeed/1.png'
 import significanceImage2 from '../../public/screenshots/newsfeed/2.png'
 import significanceImage3 from '../../public/screenshots/newsfeed/3.png'
 
+import { ProjectPageHeader } from '../components/project-page-header'
+import { ProjectPageInfo } from '../components/project-page-info'
+import { ProjectPageFunctions } from '../components/project-page-functions'
+import { ProjectPageSignificances } from '../components/project-page-significances'
+import { ProjectPageLessons } from '../components/project-page-lessons'
+import { ProjectPageNeeds } from '../components/project-page-needs'
+import { ProjectPageEtc } from '../components/project-page-etc'
+
 export const ArmyMealSection = () => {
     return (
         <>

@@ -43,13 +43,7 @@ body {
   transition: 0.2s background-color linear;
 }
 
-hr {
-  border-bottom: 1px solid #9b9b9b;
-  margin: 10px 0;
-}
-
-hr.lighter {
-  border-bottom: 1px solid #bbb;
+br {
   margin: 8px 0;
 }
 

@@ -6,13 +6,20 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    width: 100%;
+    text-align: left;
+    font-size: 56px;
+    padding: 10px 0;
 }
 
 .infoSection {
+    padding: 0 8px;
     width: 100%;
-    max-width: 700px;
-    margin-left: 40px;
 }
 
 .infoSection > div {
@@ -28,25 +35,18 @@
     margin-right: 8px;
 }
 
-.article {
-    margin-top: 20px;
+.functions ul {
+    list-style: inherit;
+    margin-left: 30px;
+}
+
+.functions ul li {
+    font-size: 18px;
 }
 
 .subtitle {
-    padding-left: 8px;
-}
-
-.article > div {
-    padding: 5px;
-}
-
-.functions .description::before {
-    content: "- ";
-    font-weight: bold;
-}
-
-.article .description {
-    margin: 4px;
+    font-size: 28px;
+    padding: 8px 0;
 }
 
 .significanceList {

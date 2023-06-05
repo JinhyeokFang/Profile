@@ -16,7 +16,7 @@ export const Title = () => {
                   {'◀'}
                 </span>
                 <span className={styles.text}>
-                &nbsp;&nbsp;
+                  &nbsp;&nbsp;
                   메인으로
                 </span>
               </div>

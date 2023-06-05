@@ -33,7 +33,6 @@ export const Skills = () => {
                   <img src="https://img.shields.io/badge/MongoDB-47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
                 </ul>
             </div>
-            <hr />
         </>
     )
 }

@@ -19,7 +19,6 @@ export default function Cafe4Me() {
         <meta property="og:description" content="Cafe4Me project by Jin-hyeok Bang" />
         <meta property="og:image" content="/profile.jpg" />
         <link rel="icon" href="/favicon.ico" />
-        <script async src="https://unpkg.com/pwacompat" crossOrigin="anonymous"></script>
       </Head>
       <main className='page'>
         <FAB />
