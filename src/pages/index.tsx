@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Title } from '@/components/title'
+import { Space } from '@/components/space'
 import { Profile } from '@/components/profile'
 import { Skills } from '@/components/skills'
 import { ProjectsList } from '@/components/projects-list'
@@ -26,7 +26,7 @@ export default function Index() {
       </Head>
       <main className='page'>
         <FAB />
-        <Title />
+        <Space />
         <Profile />
         <Skills />
         <ProjectsList />

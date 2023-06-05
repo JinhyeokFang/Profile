@@ -35,13 +35,12 @@ export const Cafe4MeSection = () => {
                 </div>
               </header>
               <article className={styles.article}>
-                <div>
+                <div className={styles.functions}>
                     <h2 className={styles.subtitle}>주요 기능</h2>
-                    <p className={styles.description}>지도에서 위치로 카페 검색</p>
-                    <p className={styles.description}>카페 추가</p>
-                    <p className={styles.description}>리뷰 추가 / 삭제</p>
-                    <p className={styles.description}>주소로 카페 검색</p>
-                    <p className={styles.description}>이름으로 카페 검색</p>
+                    <p className={styles.description}>지도에서 현재 위치를 중심으로 카페를 검색</p>
+                    <p className={styles.description}>카페 정보를 추가</p>
+                    <p className={styles.description}>카페의 리뷰를 추가하거나 삭제</p>
+                    <p className={styles.description}>주소, 이름으로 카페 검색</p>
                 </div>
                 <hr className='lighter' />
                 <div>

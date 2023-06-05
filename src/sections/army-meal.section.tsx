@@ -24,7 +24,7 @@ export const ArmyMealSection = () => {
                 </div>
               </header>
               <article className={styles.article}>
-                <div>
+                <div className={styles.functions}>
                     <h2 className={styles.subtitle}>주요 기능</h2>
                     <p className={styles.description}>-</p>
                 </div>

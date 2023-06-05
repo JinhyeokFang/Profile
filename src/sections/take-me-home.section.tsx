@@ -38,7 +38,7 @@ export const TakeMeHomeSection = () => {
               <article className={styles.article}>
                 <div className={styles.functions}>
                     <h2 className={styles.subtitle}>주요 기능</h2>
-                    <p className={styles.description}>보호소 모두 불러오기</p>
+                    <p className={styles.description}>보호소 정보를 모두 불러오는 기능</p>
                     <p className={styles.description}>보호소에서 반려동물 전체 확인</p>
                     <p className={styles.description}>사용자가 입양한 모든 반려동물을 확인</p>
                     <p className={styles.description}>보호소로 들어온 입양 신청 내역을 확인</p>

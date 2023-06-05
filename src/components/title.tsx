@@ -10,9 +10,16 @@ export const Title = () => {
 
     return (
         <>
-            <header className={styles.wrapper} onClick={toMain}>
-                <h1 className={styles.title}>개발자 방진혁</h1>
-                <hr className={styles.bottomLine}/>
+            <header className={styles.wrapper}>
+              <div onClick={toMain} className={styles.button}>
+                <span className={styles.icon}>
+                  {'◀'}
+                </span>
+                <span className={styles.text}>
+                &nbsp;&nbsp;
+                  메인으로
+                </span>
+              </div>
             </header>
         </>
     )

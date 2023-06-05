@@ -14,7 +14,7 @@ export const URLShortenerSection = () => {
                     <Image className={styles.image} src={profileImage} alt="" width="500" height={500 / 16 * 9} />
                 </div>
                 <div className={styles.infoSection}>
-                    <div>
+                    <div className={styles.functions}>
                         <h1 className={styles.name}>Jinhy.uk</h1>
                         <p className={styles.description}>프로필 + URL 단축 서비스</p>
                         <p className={styles.link}>

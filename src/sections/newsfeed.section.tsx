@@ -33,7 +33,7 @@ export const NewsfeedSection = () => {
                 </div>
               </header>
               <article className={styles.article}>
-                <div>
+                <div className={styles.functions}>
                     <h2 className={styles.subtitle}>주요 기능</h2>
                     <p className={styles.description}>계정 생성 / 탈퇴하기</p>
                     <p className={styles.description}>팔로우 / 언팔로우</p>
