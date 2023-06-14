@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@types/node": "18.15.11",
-    "@types/react": "18.0.31",
+    "@types/react": "^18.2.12",
     "@types/react-dom": "18.0.11",
     "@vercel/node": "^2.14.3",
     "aws-sdk": "^2.1383.0",
