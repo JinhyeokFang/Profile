@@ -1,7 +1,7 @@
 import styles from '../styles/sections.module.css'
 
 interface ProjectPageEtcProps {
-  children: React.ChildNode;
+  children: React.ReactNode;
 }
 
 export const ProjectPageEtc = (props: ProjectPageEtcProps) => {
