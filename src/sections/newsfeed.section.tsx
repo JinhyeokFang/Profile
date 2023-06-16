@@ -17,92 +17,61 @@ export const NewsfeedSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
-              <header className={styles.header}>
-                <div className={styles.imageSection}>
-                    <Image className={styles.image} src={profileImage} alt="" width="500" height={500 / 16 * 9} />
-                </div>
-                <div className={styles.infoSection}>
-                    <div>
-                        <h1 className={styles.name}>Newsfeed</h1>
-                        <p className={styles.description}>Express & Inversify 기반 자체 프레임워크로 서버 구현 (개발중)</p>
-                        <p className={styles.link}>
-                          Github: <a href="https://github.com/JinhyeokFang/newsfeed">https://github.com/JinhyeokFang/newsfeed</a>
-                        </p>
-                    </div>
-                    <hr className='lighter' />
-                    <div>
-                      <p>
-                        <span className={styles.tag}>Express</span>
-                        <span className={styles.tag}>Inversify</span>
-                        <span className={styles.tag}>Jest</span>
-                        <span className={styles.tag}>MySQL</span>
-                      </p>
-                    </div>
-                </div>
-              </header>
+              <ProjectPageHeader src={significanceImage1} title='Newsfeed'/>
+              <br />
               <article className={styles.article}>
-                <div className={styles.functions}>
-                    <h2 className={styles.subtitle}>주요 기능</h2>
-                    <p className={styles.description}>계정 생성 / 탈퇴하기</p>
-                    <p className={styles.description}>팔로우 / 언팔로우</p>
-                    <p className={styles.description}>팔로우 된 계정 확인</p>
-                    <p className={styles.description}>글 추가 / 삭제하기</p>
-                    <p className={styles.description}>입력한 계정 글 불러오기</p>
-                    <p className={styles.description}>좋아요 누르기 / 취소하기</p>
-                    <p className={styles.description}>댓글 작성하기 / 지우기</p>
-                </div>
-                <hr className='lighter' />
-                <div>
-                    <h2 className={styles.subtitle}>프로젝트 의의</h2>
-                    <ol className={styles.significanceList}>
-                      <h3 className={styles.description}>1. Nest.js와 ORM 없이 Dependency Injection을 기원하는 서버 프레임워크를 구현</h3>
-                      <li className={styles.significance}>
-                        <div>
-                          <p>
-                            &nbsp;
-                          </p>
-                        </div>
-                        <Image className={styles.image} src={significanceImage1} alt=""/>
-                      </li>
-                      <li className={styles.significance}>
-                        <Image className={styles.image} src={significanceImage2} alt=""/>
-                        <div>
-                          <h3 className={styles.description}>2. 데코레이터와 메타데이터로 횡단관심사 분리</h3>
-                          <p>
-                            &nbsp;
-                          </p>
-                        </div>
-                      </li>
-                      <li className={styles.significance}>
-                        <div>
-                          <h3 className={styles.description}>3. 자체 프레임워크로 Domain Driven Development 구현</h3>
-                          <p>
-                            &nbsp;
-                          </p>
-                        </div>
-                        <Image className={styles.image} src={significanceImage3} alt=""/>
-                      </li>
-                    </ol>
-                </div>
-                <hr className='lighter' />
-                <div>
-                    <h2 className={styles.subtitle}>배운점 및 느낀점</h2>
-                    <p className={styles.description}>
-                      &nbsp;
-                    </p>
-                </div>
-                <hr className='lighter' />
-                <div>
-                    <h2 className={styles.subtitle}>개선이 필요한 점</h2>
-                    <p className={styles.description}>CI & CD 구현</p>
-                    <p className={styles.description}>프레임워크에 모듈 시스템 도입</p>
-                    <p className={styles.description}>프레임워크, 비즈니스 로직 분리</p>
-                    <p className={styles.description}>화면 구현</p>
-                </div>
-                <hr className='lighter' />
-                <div>
-                    <h2 className={styles.subtitle}>기타</h2>
-                </div>
+                <ProjectPageInfo 
+                  description='Express & Inversify 기반 자체 프레임워크로 서버 구현 (개발중)'
+                  tags={[
+                    'Express', 'Inversify', 'Jest', 'MySQL'
+                  ]}
+                >
+                  Github: <a href="https://github.com/JinhyeokFang/newsfeed">https://github.com/JinhyeokFang/newsfeed</a>
+                </ProjectPageInfo>
+                <br />
+                <ProjectPageFunctions functions={[
+                  '계정 생성 / 탈퇴하기',
+                  '팔로우 / 언팔로우',
+                  '팔로우 된 계정 확인',
+                  '글 추가 / 삭제하기',
+                  '입력한 계정 글 불러오기',
+                  '좋아요 누르기 / 취소하기',
+                  '댓글 작성하기 / 지우기',
+                ]} />
+                <br />
+                <ProjectPageSignificances significances={[
+                  {
+                    src: significanceImage1,
+                    title: '1. Nest.js와 ORM 없이 Dependency Injection을 기원하는 서버 프레임워크를 구현',
+                    description: 'Cafe4Me는 AWS ECS로 배포한 첫 프로젝트입니다. API를 제공하는 Nest.js 서버와 화면을 담당하는 Next.js를 한 컨테이너로 묶어 ECS Fargate로 서비스를 배포했습니다. AWS로 서비스를 배포하면서 AWS의 IAM, VPC, ECR, ECS를 학습하고 실제 활용까지 하였습니다. 비용 절감을 위해 ECS Fargate와 Public Subnet만 사용해 배포했는데, 이로 인해 로드 밸런싱과 도메인 네임 설정이 되지 않는 점이 아쉬웠습니다.',
+                  },
+                  {
+                    src: significanceImage2,
+                    title: '2. 데코레이터와 메타데이터로 횡단관심사 분리',
+                    description: 'Git의 Main 브렌치로 Commit-Push하면 Github Action이 자동으로 서비스를 컨테이너화하고 배포합니다. Github Action에서 Docker로 Nest.js와 Next.js를 하나로 컨테이너화하고, AWS ECR로 업로드합니다. 업로드 된 컨테이너는 ECS로 바로 배포됩니다. 배포 파이프라인을 만들면서 Continous Integration을 위해 필요한 테스트 자동화에 관심을 가지게 되어 다음 프로젝트인 Take Me Home에서 테스트 자동화와 TDD를 학습하고 활용하는 계기가 되었습니다.'
+                  },
+                  {
+                    src: significanceImage3,
+                    title: '3. 자체 프레임워크로 Domain Driven Development 구현',
+                    description: '백엔드 서버 Nest.js와 HTML/CSS/JS로 빌드된 Next.js를 하나의 컨테이너로 Dockerizing했습니다.',
+                  },
+                ]}/>
+                <ProjectPageLessons lesson='처음으로 Nest.js와 AWS를 활용해 웹서비스를 제작하고 배포한 프로젝트였습니다. API 개발부터 코드 자동 배포까지 서비스를 처음부터 끝까지 개발해볼 수 있는 좋은 경험이었습니다.' />
+                <br />
+                <ProjectPageNeeds needs={[
+                  'CI & CD 구현',
+                  '프레임워크에 모듈 시스템 도입',
+                  '프레임워크, 비즈니스 로직 분리',
+                  '클라이언트 구현', 
+                ]} />
+                <br />
+                <ProjectPageEtc>
+                  기존에 사용하던 서버 레포지토리 주소: &nbsp;
+                  <a href="https://github.com/JinhyeokFang/cafe-for-me-server">https://github.com/JinhyeokFang/cafe-for-me-server</a>
+                  <br />
+                  기존에 사용하던 클라이언트 레포지토리 주소: &nbsp;
+                  <a href="https://github.com/JinhyeokFang/cafe-for-me-client">https://github.com/JinhyeokFang/cafe-for-me-client</a>
+                </ProjectPageEtc>
               </article>
             </div>
             <hr />
