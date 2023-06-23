@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { Cafe4MeSection } from '@/sections/Cafe4Me.section'
+import { Cafe4MeSection } from '@/components/sections/Cafe4Me.section'
 
 export default function Cafe4Me() {
   return (

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { NewsfeedSection } from '@/sections/newsfeed.section'
+import { NewsfeedSection } from '@/components/sections/newsfeed.section'
 
 export default function Newsfeed() {
   return (

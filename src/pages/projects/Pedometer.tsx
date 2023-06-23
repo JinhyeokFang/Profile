@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { PedometerSection } from '@/sections/Pedometer.section'
+import { PedometerSection } from '@/components/sections/Pedometer.section'
 
 export default function Pedometer() {
   return (

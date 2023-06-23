@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { ArmyMealSection } from '@/sections/army-meal.section'
+import { ArmyMealSection } from '@/components/sections/army-meal.section'
 
 export default function ArmyMeal() {
   return (

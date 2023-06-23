@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { TakeMeHomeSection } from '@/sections/take-me-home.section'
+import { TakeMeHomeSection } from '@/components/sections/take-me-home.section'
 
 export default function TakeMeHome() {
   return (
