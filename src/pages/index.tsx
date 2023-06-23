@@ -3,7 +3,6 @@ import { Space } from '@/components/space'
 import { Profile } from '@/components/profile'
 import { Skills } from '@/components/skills'
 import { ProjectsList } from '@/components/projects-list'
-import { ETC } from '@/components/etc'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
 
@@ -29,7 +28,6 @@ export default function Index() {
         <Profile />
         <Skills />
         <ProjectsList />
-        <ETC />
         <Footer />
       </main>
     </>
