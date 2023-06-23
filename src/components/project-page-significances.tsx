@@ -16,7 +16,6 @@ export const ProjectPageSignificances = (props: ProjectPageSignificancesProps) =
           <ol className={styles.significanceList}>
             {
               props.significances.map((significance, index) => (
-                index % 2 == 0 ?
                 <li className={styles.significance} key={index}>
                   <div>
                     <h3 className={styles.description}>{significance.title}</h3>
@@ -25,16 +24,6 @@ export const ProjectPageSignificances = (props: ProjectPageSignificancesProps) =
                     </p>
                   </div>
                   <Image className={styles.image} src={significance.src} alt=""/>
-                </li>
-                :
-                <li className={styles.significance} key={index}>
-                  <Image className={styles.image} src={significance.src} alt=""/>
-                  <div>
-                    <h3 className={styles.description}>{significance.title}</h3>
-                    <p>
-                      &nbsp;{significance.description}
-                    </p>
-                  </div>
                 </li>
               ))
             }
