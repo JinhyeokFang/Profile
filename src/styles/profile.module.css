@@ -2,10 +2,14 @@
     width: calc(100% - 40px);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 10px;
 }
 
 .imageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 290px;
     height: 280px;
 }
@@ -27,20 +31,26 @@
 }
 
 .infoSection > div {
-    padding: 5px 0;
+    padding-bottom: 8px;
+}
+
+.link {
+    word-wrap: break-word;
 }
 
 .name {
-    font-size: 25px;
-    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    padding-bottom: 8px;
 }
 
 .name span {
-    display: inline-block;
+    display: block;
 }
 
 .catchword {
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 5px;
 }
 
@@ -49,7 +59,7 @@
 }
 
 .studyPeriod {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 @media (max-width: 860px) { 
@@ -61,6 +71,12 @@
 
     .infoSection {
         margin: 0;
+    }
+}
+
+@media (max-width: 620px) {
+    .name {
+        flex-direction: column;
     }
 }
 

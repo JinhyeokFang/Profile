@@ -17,6 +17,11 @@
     padding: 10px 0;
 }
 
+.imageSection .image {
+    width: 100%;
+    height: calc(100% / 16 * 9);
+}
+
 .infoSection {
     padding: 0 8px;
     width: 100%;
@@ -24,6 +29,10 @@
 
 .infoSection > div {
     padding: 5px 0;
+}
+
+.link {
+    word-wrap: break-word;
 }
 
 .tag {
@@ -70,6 +79,10 @@
     object-fit: cover;
     max-width: 60%;
     max-height: 500px;
+}
+
+.description {
+    word-wrap: break-word;
 }
 
 @media (max-width: 860px) { 
