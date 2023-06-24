@@ -5,8 +5,8 @@
 
 .title {
     margin-top: 30px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-bottom: 8px;
 }
 
 .button {
@@ -19,10 +19,10 @@
 }
 
 .icon {
-    font-size: 50px;
+    font-size: 48px;
     font-weight: bold;
 }
 
 .text {
-    font-size: 25px;
+    font-size: 24px;
 }

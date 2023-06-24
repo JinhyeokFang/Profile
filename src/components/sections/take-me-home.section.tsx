@@ -18,7 +18,7 @@ export const TakeMeHomeSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
-              <ProjectPageHeader src={significanceImage4} title='take-me-home'/>
+              <ProjectPageHeader src={significanceImage4} title='Take-Me-Home'/>
               <br />
               <article className={styles.article}>
                 <ProjectPageInfo 

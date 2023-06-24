@@ -3,22 +3,22 @@
 }
 
 .title {
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 
 .project {
     display: flex;
     align-items: center;
 
-    padding: 10px;
+    padding: 8px;
     border: 1px solid #cbcbcb;
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 .name {
     font-weight: normal;
-    width: 250px;
-    padding-left: 10px;
+    width: 248px;
+    padding-left: 8px;
 }
 
 @media (max-width: 860px) { 

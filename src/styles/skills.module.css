@@ -1,9 +1,9 @@
 .wrapper {
-    padding: 10px 20px;
+    padding: 16px 24px;
 }
 
 .title {
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 
 .skillList {
@@ -12,12 +12,11 @@
 }
 
 .wrapper h2 {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .skillList * {
-    margin: 5px;
+    margin: 4px;
     margin-left: 0;
-    margin-right: 5px;
 }
 

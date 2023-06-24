@@ -1,7 +1,15 @@
 .wrapper {
     width: calc(100% - 40px);
-    margin-top: 10px;
-    padding: 20px;
+    padding: 24px;
+}
+
+.wrapper ul {
+    list-style: disc;
+    margin-left: 32px;
+}
+
+.wrapper ul li {
+    font-size: 18px;
 }
 
 .header {
@@ -13,7 +21,7 @@
 .name {
     width: 100%;
     text-align: left;
-    font-size: 56px;
+    font-size: 64px;
     padding: 10px 0;
 }
 
@@ -27,30 +35,21 @@
     width: 100%;
 }
 
-.infoSection > div {
-    padding: 5px 0;
-}
-
 .link {
     word-wrap: break-word;
 }
 
+.tagsList {
+    margin-top: 8px;
+}
+
 .tag {
     display: inline-block;
-    padding: 3px;
+    padding: 4px;
     background: var(--background);
     border: 1px solid #cbcbcb;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-right: 8px;
-}
-
-.functions ul {
-    list-style: inherit;
-    margin-left: 30px;
-}
-
-.functions ul li {
-    font-size: 18px;
 }
 
 .subtitle {
@@ -64,7 +63,7 @@
 
 .significance {
     display: flex;
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 .significance:nth-child(2n) {
@@ -72,14 +71,14 @@
 }
 
 .significance h3 {
-    padding: 10px 0;
+    padding: 8px 0;
     word-break: keep-all;
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .significance .image {
-    padding: 20px;
+    padding: 8px;
     object-fit: cover;
     max-width: 60%;
     max-height: 500px;
