@@ -8,7 +8,7 @@ interface ProjectPageInfoProps {
 
 export const ProjectPageInfo = (props: ProjectPageInfoProps) => {
     return (
-      <div className={styles.infoSection}>
+      <div className={styles.info}>
         <p className={styles.description}>{ props.description }</p>
         <p className={styles.link}>
           { props.children }

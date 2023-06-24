@@ -6,7 +6,7 @@ interface ProjectPageEtcProps {
 
 export const ProjectPageEtc = (props: ProjectPageEtcProps) => {
     return (
-      <div>
+      <div className={styles.etc}>
         <h2 className={styles.subtitle}>기타</h2>
         <p className={styles.description}>{ props.children }</p>
       </div>

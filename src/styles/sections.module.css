@@ -22,17 +22,12 @@
     width: 100%;
     text-align: left;
     font-size: 64px;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
-.imageSection .image {
+.info .image {
     width: 100%;
     height: calc(100% / 16 * 9);
-}
-
-.infoSection {
-    padding: 0 8px;
-    width: 100%;
 }
 
 .link {
@@ -78,10 +73,10 @@
 }
 
 .significance .image {
-    padding: 8px;
+    padding: 8px 16px;
     object-fit: cover;
     max-width: 60%;
-    max-height: 500px;
+    max-height: 400px;
 }
 
 .description {
@@ -97,10 +92,6 @@
 
     .header {
         flex-direction: column;
-    }
-
-    .infoSection {
-        margin: 0;
     }
 
     .significance {

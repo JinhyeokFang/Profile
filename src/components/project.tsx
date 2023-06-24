@@ -28,12 +28,7 @@ export const Project = (props: ProjectProps) => {
             src={src}
             alt={name} 
             quality={100}
-            style={{
-              objectFit: 'cover',
-              width: '100%',
-              height: '100%',
-              margin: '5px'
-            }}
+            className={styles.images}
           />)
         }
         <h2 className={styles.name}>{ name }</h2>
