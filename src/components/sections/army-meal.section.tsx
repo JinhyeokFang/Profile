@@ -27,7 +27,8 @@ export const ArmyMealSection = () => {
                 </ProjectPageInfo>
                 <br />
                 <ProjectPageFunctions functions={[
-                  '',
+                  '한 달 내 급식 정보 불러오기',
+                  '하루 급식 정보 불러오기',
                 ]} />
                 <br />
                 <ProjectPageSignificances significances={[
@@ -37,10 +38,6 @@ export const ArmyMealSection = () => {
                     description: '국방부 군대 급식 API를 쉽게 사용하도록 도와주는 Node.js 모듈을 npm으로 배포하였습니다.',
                   },
                 ]}/>
-                <ProjectPageLessons lesson='' />
-                <br />
-                <ProjectPageEtc>
-                </ProjectPageEtc>
               </article>
             </div>
             <hr />

@@ -48,12 +48,12 @@ export const NewsfeedSection = () => {
                   {
                     src: significanceImage2,
                     title: '2. 데코레이터와 메타데이터로 횡단관심사 분리',
-                    description: 'TypeScript의 데코레이터와 Reflect-metadata로 validation 같이 반복되는 부분을 횡단으로 분리했습니다.'
+                    description: 'TypeScript의 데코레이터와 Reflect-metadata로 반복되는 부분을 횡단으로 분리했습니다. 요청 body를 validate하는 코드, 라우터에 handler를 등록하는 코드를 데코레이터로 만들었습니다.'
                   },
                   {
                     src: significanceImage3,
                     title: '3. 자체 프레임워크로 Domain Driven Development 구현',
-                    description: '',
+                    description: 'DIP(의존성 역전 법칙)을 구현하기 위해 의존성 주입 컨테이너 inversify를 자체 프레임워크에 도입했습니다.',
                   },
                 ]}/>
                 <ProjectPageLessons lesson='' />
@@ -61,7 +61,7 @@ export const NewsfeedSection = () => {
                 <ProjectPageNeeds needs={[
                   'CI & CD 구현',
                   '프레임워크에 모듈 시스템 도입',
-                  '프레임워크, 비즈니스 로직 분리',
+                  '프레임워크, 비즈니스 로직 결합도 낮추기',
                   '클라이언트 구현', 
                 ]} />
                 <br />

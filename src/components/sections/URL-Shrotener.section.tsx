@@ -31,10 +31,9 @@ export const URLShortenerSection = () => {
                 </ProjectPageInfo>
                 <br />
                 <ProjectPageFunctions functions={[
-                  '',
-                  '',
-                  '',
-                  '',
+                  '프로필',
+                  '프로젝트 소개',
+                  'URL 단축 기능',
                 ]} />
                 <br />
                 <ProjectPageSignificances significances={[
@@ -55,16 +54,6 @@ export const URLShortenerSection = () => {
                   },
                 ]}/>
                 <ProjectPageLessons lesson='' />
-                <br />
-                <ProjectPageNeeds needs={[
-                  '',
-                  '',
-                  '',
-                  '', 
-                ]} />
-                <br />
-                <ProjectPageEtc>
-                </ProjectPageEtc>
               </article>
             </div>
             <hr />

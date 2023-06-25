@@ -44,17 +44,12 @@ export const PedometerSection = () => {
                     description: '조회수를 데이터베이스로부터 불러오고 추가하는 Nest.js 서버를 Serverless 프레임워크를 활용해 AWS Lambda로 배포했습니다.',
                   },
                 ]}/>
-                <ProjectPageLessons lesson='' />
-                <br />
                 <ProjectPageNeeds needs={[
                   '',
                   '',
                   '',
                   '', 
                 ]} />
-                <br />
-                <ProjectPageEtc>
-                </ProjectPageEtc>
               </article>
             </div>
             <hr />
