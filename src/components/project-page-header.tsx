@@ -18,7 +18,10 @@ export const ProjectPageHeader = (props: ProjectPageHeaderProps) => {
             프로젝트 기간: { props.dateStart } ~ { props.dateEnd } 
           </p>
         }
-        <Image className={styles.image} src={props.src} alt="" width="1000" height={1000 / 16 * 9} />
+        {
+          props.src &&
+          <Image className={styles.image} src={props.src} alt="" width="1000" height={1000 / 16 * 9} />
+        }
       </header>
     )
 }

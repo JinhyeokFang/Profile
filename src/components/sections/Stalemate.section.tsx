@@ -1,5 +1,4 @@
 import styles from '../../styles/sections.module.css'
-import profileImage from '../../../public/screenshots/cafe4me/profile.png'
 
 import { ProjectPageHeader } from '../project-page-header'
 import { ProjectPageInfo } from '../project-page-info'
@@ -16,12 +15,17 @@ export const StalemateSection = () => {
                 <ProjectPageInfo 
                   description=''
                   tags={[
+                    'Socket.io', 'MongoDB'
                   ]}
                 >
                   Github: <a href="https://github.com/JinhyeokFang/horse-chess-server">https://github.com/JinhyeokFang/horse-chess-server</a>
                 </ProjectPageInfo>
                 <br />
                 <ProjectPageFunctions functions={[
+                  '유저 두 명을 온라인 매칭',
+                  '온라인 게임 진행',
+                  '친구 요청 / 승락',
+                  '게임이 종료된 방 자동 제거'                  
                 ]} />
                 <ProjectPageLessons lesson='' />
               </article>

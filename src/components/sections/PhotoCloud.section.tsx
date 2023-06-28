@@ -1,5 +1,4 @@
 import styles from '../../styles/sections.module.css'
-import profileImage from '../../../public/screenshots/cafe4me/profile.png'
 
 import { ProjectPageHeader } from '../project-page-header'
 import { ProjectPageInfo } from '../project-page-info'
@@ -16,12 +15,18 @@ export const PhotoCloudSection = () => {
                 <ProjectPageInfo 
                   description=''
                   tags={[
+                    'Express', 'MongoDB', 'Android', 'Kotlin'
                   ]}
                 >
-                  Github: <a href="https://github.com/JinhyeokFang/PhotoCloudServer">https://github.com/JinhyeokFang/PhotoCloudServer</a>
+                  Github(Server): <a href="https://github.com/JinhyeokFang/PhotoCloudServer">https://github.com/JinhyeokFang/PhotoCloudServer</a>
+                  <br/>
+                  Github(Android): <a href="https://github.com/JinhyeokFang/PhotoCloudAndroid">https://github.com/JinhyeokFang/PhotoCloudAndroid</a>
                 </ProjectPageInfo>
                 <br />
                 <ProjectPageFunctions functions={[
+                  '클라우드와 사진 동기화',
+                  '폰에서 사진 제거',
+                  '클라우드에서 사진 불러오기'
                 ]} />
                 <ProjectPageLessons lesson='' />
               </article>

@@ -1,9 +1,9 @@
 .wrapper {
     width: calc(100% - 40px);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 10px;
+    padding: 16px 8px;
 }
 
 .image {
@@ -18,12 +18,12 @@
 
 .infoSection {
     width: 100%;
-    max-width: 700px;
-    margin-left: 40px;
+    max-width: 600px;
+    margin-left: 16px;
 }
 
 .infoSection > div {
-    padding-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 .link {
@@ -33,7 +33,7 @@
 .name {
     display: flex;
     align-items: center;
-    font-size: 32px;
+    font-size: 40px;
     padding-bottom: 8px;
 }
 
@@ -46,15 +46,19 @@
     margin-left: 8px;
 }
 
-.school {
-    font-size: 16px;
+.description {
+    font-size: 20px;
+}
+
+.link, .school {
+    font-size: 18px;
 }
 
 .studyPeriod {
     font-size: 12px;
 }
 
-@media (max-width: 860px) { 
+@media (max-width: 972px) { 
     .wrapper {
         flex-direction: column;
         justify-content: flex-start;

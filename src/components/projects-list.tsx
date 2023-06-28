@@ -60,7 +60,7 @@ export const ProjectsList = () => {
                     <Project
                       name='Pedometer'
                       link='/projects/Pedometer'
-                      title='Serverless 프레임워크와 SVG로 만든 사이트 방문 횟수, 시간 통계 웹 서비스'
+                      title='Serverless & svg로 만든 사이트 방문 횟수, 통계 웹 서비스'
                     >
                       <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
                       <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
@@ -74,7 +74,8 @@ export const ProjectsList = () => {
                     >
                       <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
                       <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
-                      <img className={styles.tag} src="https://img.shields.io/badge/--%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
                     </Project>
                     <Project
                       name='스테일메이트'
