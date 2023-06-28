@@ -1,6 +1,5 @@
-import Image from 'next/image'
 import styles from '../../styles/sections.module.css'
-import profileImage from '../../../public/screenshots/cafe4me/profile.png'
+import profileImage from '../../../public/screenshots/newsfeed/newsfeed.png'
 import significanceImage1 from '../../../public/screenshots/newsfeed/1.png'
 import significanceImage2 from '../../../public/screenshots/newsfeed/2.png'
 import significanceImage3 from '../../../public/screenshots/newsfeed/3.png'
@@ -17,7 +16,7 @@ export const NewsfeedSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
-              <ProjectPageHeader src={significanceImage1} title='Newsfeed'/>
+              <ProjectPageHeader src={profileImage} title='Newsfeed' dateStart='2023.02'/>
               <br />
               <article className={styles.article}>
                 <ProjectPageInfo 

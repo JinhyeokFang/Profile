@@ -52,22 +52,15 @@ export const ProjectsList = () => {
                     <Project
                       name='Jinhy.uk'
                       link='/projects/URL-Shortener'
-                      title='프로필 + URL 단축 서비스'
+                      title='Next.js Vercel로 배포되는 프로필 & URL 단축 서비스'
                     >
                       <img className={styles.tag} src="https://img.shields.io/badge/--000000.svg?&style=for-the-badge&logo=Next.JS&logoColor=white"/>
                       <img className={styles.tag} src="https://img.shields.io/badge/--4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white"/>
                     </Project>
                     <Project
-                      name='army-meal'
-                      link='/projects/army-meal'
-                      title='국방부 군대 급식 API 모듈'
-                    >
-                      <img className={styles.tag} src="https://img.shields.io/badge/--%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>
-                    </Project>
-                    <Project
                       name='Pedometer'
                       link='/projects/Pedometer'
-                      title='사이트 방문 횟수, 시간 통계 웹 서비스'
+                      title='Serverless 프레임워크와 SVG로 만든 사이트 방문 횟수, 시간 통계 웹 서비스'
                     >
                       <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
                       <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
@@ -75,19 +68,45 @@ export const ProjectsList = () => {
                       <img className={styles.tag} src="https://img.shields.io/badge/-Serverless-202020.svg?&style=for-the-badge"/>
                     </Project>
                     <Project
+                      name='Photo Cloud'
+                      link='/projects/PhotoCloud'
+                      title='휴대폰 사진을 관리하는 클라우드 서버 + 안드로이드 앱'
+                    >
+                      <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+                    </Project>
+                    <Project
+                      name='스테일메이트'
+                      link='/projects/Stalemate'
+                      title='Socket.io로 stateful하게 통신하는 모바일 게임서버'
+                    >
+                      <img className={styles.tag} src="https://img.shields.io/badge/--black?style=for-the-badge&logo=socket.io&badgeColor=010101"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
+                    </Project>
+                    <Project
                       name='외주 프로젝트 1'
-                      title='Express, Typescript 기반 앱 서비스 API 서버 구현'
+                      title='Express, Typescript 기반 앱 서비스 API 서버'
                     >
                       <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
                       <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
                     </Project>
                     <Project
                       name='외주 프로젝트 2'
-                      title='Express API 서버 및 Vue 기반 관리자용 웹 페이지 구현'
+                      title='Express API 서버 & Vue 기반 관리자용 웹 페이지'
                     >
                       <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
                       <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
                       <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
+                    </Project>
+                    <Project
+                      name='(개발중) Specialty Coffee Notes'
+                      title='GraphQL + Nest.js 기반 웹서비스'
+                    >
+                      <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--C21325.svg?&style=for-the-badge&logo=Jest&logoColor=white"/>
+                      <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
                     </Project>
                 </ul>
             </div>

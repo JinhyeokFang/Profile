@@ -1,23 +1,20 @@
-import Image from 'next/image'
 import styles from '../../styles/sections.module.css'
-import profileImage from '../../../public/screenshots/cafe4me/profile.png'
-import significanceImage1 from '../../../public/screenshots/newsfeed/1.png'
-import significanceImage2 from '../../../public/screenshots/newsfeed/2.png'
-import significanceImage3 from '../../../public/screenshots/newsfeed/3.png'
+import profileImage from '../../../public/screenshots/url-shortener/jinhyuk.png'
+import significanceImage1 from '../../../public/screenshots/url-shortener/1.png'
+import significanceImage2 from '../../../public/screenshots/url-shortener/2.png'
+import significanceImage3 from '../../../public/screenshots/url-shortener/3.png'
 
 import { ProjectPageHeader } from '../project-page-header'
 import { ProjectPageInfo } from '../project-page-info'
 import { ProjectPageFunctions } from '../project-page-functions'
 import { ProjectPageSignificances } from '../project-page-significances'
 import { ProjectPageLessons } from '../project-page-lessons'
-import { ProjectPageNeeds } from '../project-page-needs'
-import { ProjectPageEtc } from '../project-page-etc'
 
 export const URLShortenerSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
-              <ProjectPageHeader src={significanceImage1} title='Jinhy.uk'/>
+              <ProjectPageHeader src={profileImage} title='Jinhy.uk' dateStart='2022.11' dateEnd='2023.07'/>
               <article className={styles.article}>
                 <ProjectPageInfo 
                   description='프로필 + URL 단축 서비스'

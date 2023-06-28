@@ -1,6 +1,5 @@
-import Image from 'next/image'
 import styles from '../../styles/sections.module.css'
-import profileImage from '../../../public/screenshots/cafe4me/profile.png'
+import profileImage from '../../../public/screenshots/take-me-home/take-me-home.png'
 import significanceImage1 from '../../../public/screenshots/take-me-home/1.png'
 import significanceImage2 from '../../../public/screenshots/take-me-home/2.png'
 import significanceImage3 from '../../../public/screenshots/take-me-home/3.png'
@@ -18,7 +17,7 @@ export const TakeMeHomeSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
-              <ProjectPageHeader src={significanceImage4} title='Take-Me-Home'/>
+              <ProjectPageHeader src={profileImage} title='Take-Me-Home' dateStart='2022.12' dateEnd='2023.01'/>
               <br />
               <article className={styles.article}>
                 <ProjectPageInfo 

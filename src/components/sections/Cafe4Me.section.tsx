@@ -17,7 +17,7 @@ export const Cafe4MeSection = () => {
     return (
         <>
             <div className={styles.wrapper}>
-              <ProjectPageHeader src={profileImage} title='Cafe4Me'/>
+              <ProjectPageHeader src={profileImage} title='Cafe4Me' dateStart='2022.11' dateEnd='2022.11'/>
               <br />
               <article>
                 <ProjectPageInfo 
