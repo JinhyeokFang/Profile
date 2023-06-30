@@ -13,7 +13,7 @@ export const PhotoCloudSection = () => {
               <br />
               <article>
                 <ProjectPageInfo 
-                  description=''
+                  description='휴대폰 사진을 관리하는 클라우드 서버 + 안드로이드 앱'
                   tags={[
                     'Express', 'MongoDB', 'Android', 'Kotlin'
                   ]}

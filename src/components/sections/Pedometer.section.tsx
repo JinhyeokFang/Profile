@@ -7,6 +7,7 @@ import { ProjectPageInfo } from '../project-page-info'
 import { ProjectPageFunctions } from '../project-page-functions'
 import { ProjectPageSignificances } from '../project-page-significances'
 import { ProjectPageNeeds } from '../project-page-needs'
+import { ProjectPageLessons } from '../project-page-lessons'
 
 export const PedometerSection = () => {
     return (
@@ -15,7 +16,7 @@ export const PedometerSection = () => {
               <ProjectPageHeader src={profileImage} title='Pedometer' dateStart='2022.09' dateEnd='2022.09'/>
               <article className={styles.article}>
                 <ProjectPageInfo 
-                  description='사이트 방문 횟수, 시간 통계 웹 서비스'
+                  description='Serverless & svg로 만든 사이트 방문 횟수, 통계 웹 서비스'
                   tags={[
                     'NestJS', 'Serverless', 'MongoDB', 'Vue'
                   ]}
@@ -26,10 +27,8 @@ export const PedometerSection = () => {
                 </ProjectPageInfo>
                 <br />
                 <ProjectPageFunctions functions={[
-                  '',
-                  '',
-                  '',
-                  '',
+                  '조회수를 표시하는 SVG 이미지 생성',
+                  '각 날짜 별 조회수 조회',
                 ]} />
                 <br />
                 <ProjectPageSignificances significances={[
@@ -39,12 +38,7 @@ export const PedometerSection = () => {
                     description: '조회수를 데이터베이스로부터 불러오고 추가하는 Nest.js 서버를 Serverless 프레임워크를 활용해 AWS Lambda로 배포했습니다.',
                   },
                 ]}/>
-                <ProjectPageNeeds needs={[
-                  '',
-                  '',
-                  '',
-                  '', 
-                ]} />
+                <ProjectPageLessons lessons='' />
               </article>
             </div>
             <hr />

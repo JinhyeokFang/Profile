@@ -20,7 +20,7 @@ export const NewsfeedSection = () => {
               <br />
               <article className={styles.article}>
                 <ProjectPageInfo 
-                  description='Express & Inversify 기반 자체 프레임워크로 서버 구현 (개발중)'
+                  description='Express & Inversify 기반 자체 프레임워크로 서버 구현'
                   tags={[
                     'Express', 'Inversify', 'Jest', 'MySQL'
                   ]}

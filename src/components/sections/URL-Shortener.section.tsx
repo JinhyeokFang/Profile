@@ -17,7 +17,7 @@ export const URLShortenerSection = () => {
               <ProjectPageHeader src={profileImage} title='Jinhy.uk' dateStart='2022.11' dateEnd='2023.07'/>
               <article className={styles.article}>
                 <ProjectPageInfo 
-                  description='프로필 + URL 단축 서비스'
+                  description='Next.js Vercel로 배포되는 프로필 & URL 단축 서비스'
                   tags={[
                     'NextJS', 'AWS DynamoDB'
                   ]}
