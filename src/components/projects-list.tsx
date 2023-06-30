@@ -97,8 +97,8 @@ export const ProjectsList = () => {
                 <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
               </Project>
               <Project
-                name='(개발중) Specialty Coffee Notes'
-                title='GraphQL + Nest.js 기반 웹서비스'
+                name='숨숨집'
+                title='GraphQL + Nest.js 기반 고양이 사진 공유 웹서비스'
               >
                 <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
                 <img className={styles.tag} src="https://img.shields.io/badge/--E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
