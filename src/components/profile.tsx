@@ -6,6 +6,7 @@ export const Profile = () => {
     return (
         <>
           <div className={styles.wrapper}>
+            <article className={styles.topArticle}>
               <section className={styles.imageSection}>
                   <Image className={styles.image} src={profileImage} alt="" width="260" height="260" />
               </section>
@@ -17,17 +18,21 @@ export const Profile = () => {
                           <b>확장성</b>을 고려한 코드를 선호합니다.
                       </p>
                   </div>
-                  <div>
-                      <p className={styles.link}><b>Github</b>: <a href='https://github.com/JinhyeokFang'>https://github.com/JinhyeokFang</a></p>
-                      <p className={styles.link}><b>Mail</b>: hyeki0206@naver.com, jinhyeokfang@gmail.com</p>
-                  </div>
-                  <div>
-                      <p className={styles.school}><b>경기대학교 AI컴퓨터공학부 컴퓨터공학전공</b> 재학 <span className={styles.studyPeriod}>(21.03 ~ )</span></p>
-                      <p className={styles.school}><b>선린인터넷고등학교 소프트웨어과</b> 졸업 <span className={styles.studyPeriod}>(18.03 ~ 21.02)</span></p>
-                  </div>
               </section>
+            </article>
+            <article className={styles.bottomArticle}>
+              <section>
+                  <h1 className={styles.title}>Contact</h1>
+                  <p className={styles.link}><b>Github</b>: <a href='https://github.com/JinhyeokFang'>https://github.com/JinhyeokFang</a></p>
+                  <p className={styles.link}><b>Mail</b>: hyeki0206@naver.com, jinhyeokfang@gmail.com</p>
+              </section>
+              <section>
+                  <h1 className={styles.title}>Schools</h1>
+                  <p className={styles.school}><b>경기대학교 AI컴퓨터공학부 컴퓨터공학전공</b> 재학 <span className={styles.studyPeriod}>(21.03 ~ )</span></p>
+                  <p className={styles.school}><b>선린인터넷고등학교 소프트웨어과</b> 졸업 <span className={styles.studyPeriod}>(18.03 ~ 21.02)</span></p>
+              </section>
+            </article>
           </div>
-          <br />
         </>
     )
 }

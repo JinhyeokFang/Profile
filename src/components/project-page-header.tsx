@@ -20,7 +20,7 @@ export const ProjectPageHeader = (props: ProjectPageHeaderProps) => {
         }
         {
           props.src &&
-          <Image className={styles.image} src={props.src} alt="" width="1000" height={1000 / 16 * 9} />
+          <Image className={styles.image} src={props.src} alt=""/>
         }
       </header>
     )

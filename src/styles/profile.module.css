@@ -1,9 +1,27 @@
 .wrapper {
+    padding: 16px 24px;
     width: calc(100% - 40px);
+}
+
+.topArticle {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 8px;
+    padding-bottom: 64px;
+}
+
+.bottomArticle {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomArticle > section {
+    padding-bottom: 24px;
+}
+
+.title {
+    font-size: 32px;
+    padding-bottom: 4px;
 }
 
 .image {
@@ -20,10 +38,6 @@
     width: 100%;
     max-width: 600px;
     margin-left: 16px;
-}
-
-.infoSection > div {
-    padding-bottom: 4px;
 }
 
 .link {
@@ -51,15 +65,15 @@
 }
 
 .link, .school {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .studyPeriod {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 @media (max-width: 972px) { 
-    .wrapper {
+    .topArticle {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -70,7 +84,7 @@
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 665px) {
     .name {
         flex-direction: column;
     }

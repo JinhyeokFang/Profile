@@ -31,9 +31,10 @@
     margin-bottom: 8px;
 }
 
-.info .image {
-    width: 100%;
-    height: calc(100% / 16 * 9);
+.header .image {
+    max-width: 1000px;
+    max-height: 600px;
+    object-fit: contain;
 }
 
 .link {
