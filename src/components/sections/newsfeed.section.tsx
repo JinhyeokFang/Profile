@@ -55,7 +55,7 @@ export const NewsfeedSection = () => {
                     description: 'DIP(의존성 역전 법칙)을 구현하기 위해 의존성 주입 컨테이너 inversify를 자체 프레임워크에 도입했습니다.',
                   },
                 ]}/>
-                <ProjectPageLessons lesson='' />
+                <ProjectPageLessons lesson='횡단 관심사를 분리하는 코드를 프레임워크를 사용하지 않고 직접 작성하였습니다. DIP로 의존성을 관리하기 위해 의존성 주입과 IoC를 적용했습니다. ORM 없이 직접 SQL Query문을 작성하고 실행했습니다.' />
                 <br />
                 <ProjectPageNeeds needs={[
                   'CI & CD 구현',
