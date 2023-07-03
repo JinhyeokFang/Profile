@@ -50,7 +50,7 @@ export const URLShortenerSection = () => {
                     description: 'localStorage와 순수 css로 다크 모드를 직접 구현하고 미디어 쿼리로 모바일에 맞는 레이아웃을 구현했습니다.',
                   },
                 ]}/>
-                <ProjectPageLessons lesson='' />
+                <ProjectPageLessons lesson='순수 CSS와 Next.js만을 사용하여 직접 스타일을 넣고 컴포넌트를 만들었습니다. AWS의 DynamoDB와 Vercel의 Serverless Function 기능을 활용하여 백엔드와 프론트엔드를 Next.js 하나로 작성하였습니다.' />
               </article>
             </div>
             <hr />
