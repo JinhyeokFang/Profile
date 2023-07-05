@@ -7,7 +7,18 @@
     border: 1px solid #cbcbcb;
     margin-top: 8px;
 
+    cursor: pointer;
     text-align: center;
+}
+
+.project:hover, .project:focus {
+    transition: background-color 0.2s;
+    background: #cbcbcb;
+}
+
+body[data-theme='dark'] .project:hover, 
+body[data-theme='dark'] .project:focus {
+    background: #333;
 }
 
 .project > div {

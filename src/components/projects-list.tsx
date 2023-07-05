@@ -66,6 +66,7 @@ export const ProjectsList = () => {
               </Project>
               <LittleProject
                 name='숨숨집 (개발중)'
+                link='https://github.com/JinhyeokFang/sumsumzip'
                 title='GraphQL + Nest.js 기반 고양이 사진 공유 웹서비스'
               >
                 <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
@@ -75,7 +76,7 @@ export const ProjectsList = () => {
               </LittleProject>
               <LittleProject
                 name='Photo Cloud'
-                link='/projects/PhotoCloud'
+                link='https://github.com/JinhyeokFang/PhotoCloudServer'
                 title='휴대폰 사진을 관리하는 클라우드 서버 + 안드로이드 앱'
               >
                 <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
@@ -85,7 +86,7 @@ export const ProjectsList = () => {
               </LittleProject>
               <LittleProject
                 name='스테일메이트'
-                link='/projects/Stalemate'
+                link='https://github.com/JinhyeokFang/horse-chess-server'
                 title='Socket.io로 stateful하게 통신하는 모바일 게임서버'
               >
                 <img className={styles.tag} src="https://img.shields.io/badge/--black?style=for-the-badge&logo=socket.io&badgeColor=010101"/>
