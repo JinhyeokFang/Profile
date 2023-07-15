@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { Space } from '@/components/space'
 import { Profile } from '@/components/profile'
-import { Skills } from '@/components/skills'
 import { ProjectsList } from '@/components/projects-list'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
@@ -26,7 +25,6 @@ export default function Index() {
         <FAB />
         <Space />
         <Profile />
-        <Skills />
         <ProjectsList />
         <Footer />
       </main>

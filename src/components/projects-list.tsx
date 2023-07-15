@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import styles from '../styles/projects-list.module.css'
 import { Project } from './project';
 
@@ -7,12 +6,10 @@ import Project2Image from '../../public/screenshots/cafe4me/profile.png'
 import { LittleProject } from './little-project';
 
 export const ProjectsList = () => {
-  const router = useRouter();
-
   return (
       <>
         <div className={styles.wrapper}>
-          <h1 className={styles.title}>Projects</h1>
+          <h1 className={styles.title}>프로젝트</h1>
           <ul className={styles.projectList}>
               <Project
                 name='Take-Me-Home'
@@ -105,7 +102,7 @@ export const ProjectsList = () => {
               >
                 <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
                 <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--4FC08D.svg?&style=for-the-badge&logo=Vue.js&logoColor=white"/>
               </LittleProject>
           </ul>
         </div>

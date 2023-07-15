@@ -23,7 +23,7 @@ export const URLShortenerSection = () => {
                   ]}
                 >
                   Github: <a href="https://github.com/JinhyeokFang/https-jinhy.uk">https://github.com/JinhyeokFang/https-jinhy.uk</a><br/>
-                  URL 단축 서비스: <a href="https://jinhy.uk/url">https://jinhy.uk/url</a>
+                  URL 단축 서비스: <a href="https://jinhy.uk/url">https://bang.jinhy.uk/url</a><br/>
                   프로필: <a href="https://jinhy.uk">https://jinhy.uk</a>
                 </ProjectPageInfo>
                 <br />

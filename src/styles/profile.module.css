@@ -17,7 +17,7 @@
 }
 
 .bottomArticle > section {
-    padding-bottom: 24px;
+    padding-bottom: 8px;
 }
 
 .title {
@@ -71,6 +71,20 @@
 
 .studyPeriod {
     font-size: 16px;
+}
+
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper h2 {
+    font-size: 24px;
+}
+
+.skillList * {
+    margin-right: 8px;
+    margin-top: 8px;
 }
 
 @media (max-width: 972px) { 
