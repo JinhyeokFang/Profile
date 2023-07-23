@@ -62,13 +62,12 @@ export const ProjectsList = () => {
                 <img className={styles.tag} src="https://img.shields.io/badge/-Serverless-202020.svg?&style=for-the-badge"/>
               </Project>
               <LittleProject
-                name='숨숨집 (개발중)'
-                link='https://github.com/JinhyeokFang/sumsumzip'
-                title='GraphQL + Nest.js 기반 고양이 사진 공유 웹서비스'
+                name='숨숨집 (기획중)'
+                link='https://github.com/JinhyeokFang/sumsumzip_springboot'
+                title='Springboot 기반 고양이 사진 공유 웹서비스'
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--C21325.svg?&style=for-the-badge&logo=Jest&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logoColor=white"/>
                 <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
               </LittleProject>
               <LittleProject
