@@ -3,6 +3,8 @@ import { Project } from './project';
 
 import Project1Image from '../../public/screenshots/take-me-home/1.png'
 import Project2Image from '../../public/screenshots/cafe4me/profile.png'
+import Project3Image from '../../public/screenshots/sumsumzip/1.png'
+import Project4Image from '../../public/screenshots/url-shortener/jinhyuk.png'
 import { LittleProject } from './little-project';
 
 export const ProjectsList = () => {
@@ -11,17 +13,6 @@ export const ProjectsList = () => {
         <div className={styles.wrapper}>
           <h1 className={styles.title}>프로젝트</h1>
           <ul className={styles.projectList}>
-              <Project
-                name='Take-Me-Home'
-                link='/projects/take-me-home'
-                title='TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버'
-                src={Project1Image}
-              >
-                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--C21325.svg?&style=for-the-badge&logo=Jest&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/-TypeOrm-202020.svg?&style=for-the-badge"/>
-              </Project>
               <Project
                 name='Cafe4Me'
                 link='/projects/Cafe4Me'
@@ -34,6 +25,36 @@ export const ProjectsList = () => {
                 <img className={styles.tag} src="https://img.shields.io/badge/--000000.svg?&style=for-the-badge&logo=Next.JS&logoColor=white"/>
               </Project>
               <Project
+                name='숨숨집 (개발중)'
+                link='/projects/sumsumzip'
+                title='Springboot 3, Java 17+ 기반 고양이 사진 공유 웹서비스'
+                src={Project3Image}
+              >
+                <img className={styles.tag} src="https://img.shields.io/badge/--6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
+              </Project>
+              <Project
+                name='Take-Me-Home'
+                link='/projects/take-me-home'
+                title='TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버'
+                src={Project1Image}
+              >
+                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--C21325.svg?&style=for-the-badge&logo=Jest&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/-TypeOrm-202020.svg?&style=for-the-badge"/>
+              </Project>
+              <Project
+                name='Jinhy.uk'
+                link='/projects/URL-Shortener'
+                title='Next.js Vercel로 배포되는 프로필 & URL 단축 서비스'
+                src={Project4Image}
+              >
+                <img className={styles.tag} src="https://img.shields.io/badge/--000000.svg?&style=for-the-badge&logo=Next.JS&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white"/>
+              </Project>
+              <Project
                 name='Newsfeed'
                 link='/projects/Newsfeed'
                 title='Express & Inversify 기반 자체 프레임워크로 서버 구현'
@@ -42,14 +63,6 @@ export const ProjectsList = () => {
                 <img className={styles.tag} src="https://img.shields.io/badge/--C21325.svg?&style=for-the-badge&logo=Jest&logoColor=white"/>
                 <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
                 <img className={styles.tag} src="https://img.shields.io/badge/-Inversify-202020.svg?&style=for-the-badge"/>
-              </Project>
-              <Project
-                name='Jinhy.uk'
-                link='/projects/URL-Shortener'
-                title='Next.js Vercel로 배포되는 프로필 & URL 단축 서비스'
-              >
-                <img className={styles.tag} src="https://img.shields.io/badge/--000000.svg?&style=for-the-badge&logo=Next.JS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white"/>
               </Project>
               <Project
                 name='Pedometer'
@@ -61,15 +74,6 @@ export const ProjectsList = () => {
                 <img className={styles.tag} src="https://img.shields.io/badge/--4FC08D.svg?&style=for-the-badge&logo=Vue.js&logoColor=white"/>
                 <img className={styles.tag} src="https://img.shields.io/badge/-Serverless-202020.svg?&style=for-the-badge"/>
               </Project>
-              <LittleProject
-                name='숨숨집 (기획중)'
-                link='https://github.com/JinhyeokFang/sumsumzip_springboot'
-                title='Springboot 기반 고양이 사진 공유 웹서비스'
-              >
-                <img className={styles.tag} src="https://img.shields.io/badge/--6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
-              </LittleProject>
               <LittleProject
                 name='Photo Cloud'
                 link='https://github.com/JinhyeokFang/PhotoCloudServer'
