@@ -8,7 +8,7 @@ export default function Sumsumzip() {
   return (
     <>
       <Head>
-        <title>개발자 방진혁 - 숨숨집</title>
+        <title>백엔드 개발자 방진혁 - 숨숨집</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="sumsumzip project" />
         <meta name="description" content="sumsumzip project by Jin-hyeok Bang" />

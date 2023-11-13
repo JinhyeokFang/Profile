@@ -8,7 +8,7 @@ export default function Newsfeed() {
   return (
     <>
       <Head>
-        <title>개발자 방진혁 - Newsfeed</title>
+        <title>백엔드 개발자 방진혁 - Newsfeed</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="Newsfeed project" />
         <meta name="description" content="Newsfeed project by Jin-hyeok Bang" />

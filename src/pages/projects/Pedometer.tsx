@@ -8,7 +8,7 @@ export default function Pedometer() {
   return (
     <>
       <Head>
-        <title>개발자 방진혁 - Pedometer</title>
+        <title>백엔드 개발자 방진혁 - Pedometer</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="Pedometer project" />
         <meta name="description" content="Pedometer project by Jin-hyeok Bang" />

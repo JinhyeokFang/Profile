@@ -12,10 +12,10 @@ export const Profile = () => {
               </section>
               <section className={styles.infoSection}>
                   <div>
-                      <h1 className={styles.name}><span>개발자 방진혁 I </span><span className={styles.catchword}>성장하는 코드를 지향합니다 :)</span></h1>
+                      <h1 className={styles.name}><span>도전, 성장하는 백엔드 방진혁</span></h1>
                       <p className={styles.description}>
-                          미래를 예측하기보단 <b>현재에</b> 집중하고자 노력합니다. <br/>
-                          <b>확장성</b>을 고려한 코드를 선호합니다.
+                          같은 기능을 만들때도 다른 방법, 기술을 <b>도전</b>합니다.<br/>
+                          미래를 예측하기보단 <b>현재에</b> 집중하는 코드를 선호합니다. <br/>
                       </p>
                   </div>
               </section>

@@ -8,7 +8,7 @@ export default function URLShortener() {
   return (
     <>
       <Head>
-        <title>개발자 방진혁 - URL-Shortener</title>
+        <title>백엔드 개발자 방진혁 - URL-Shortener</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="URL-Shortener project" />
         <meta name="description" content="URL-Shortener project by Jin-hyeok Bang" />

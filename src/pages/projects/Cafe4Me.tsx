@@ -8,7 +8,7 @@ export default function Cafe4Me() {
   return (
     <>
       <Head>
-        <title>개발자 방진혁 - Cafe4Me</title>
+        <title>백엔드 개발자 방진혁 - Cafe4Me</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="Cafe4Me project" />
         <meta name="description" content="Cafe4Me project by Jin-hyeok Bang" />

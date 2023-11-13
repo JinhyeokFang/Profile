@@ -8,7 +8,7 @@ export default function TakeMeHome() {
   return (
     <>
       <Head>
-        <title>개발자 방진혁 - take-me-home</title>
+        <title>백엔드 개발자 방진혁 - take-me-home</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="take-me-home project" />
         <meta name="description" content="take-me-home project by Jin-hyeok Bang" />
