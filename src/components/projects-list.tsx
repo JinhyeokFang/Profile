@@ -75,6 +75,15 @@ export const ProjectsList = () => {
                 <img className={styles.tag} src="https://img.shields.io/badge/-Serverless-202020.svg?&style=for-the-badge"/>
               </Project>
               <LittleProject
+                name='어디더라'
+                link='https://github.com/JinhyeokFang/PhotoCloudServer'
+                title='Spring Webflux, Kotlin Coroutine 기반 물건 위치 메모 서비스'
+              >
+                <img className={styles.tag} src="https://img.shields.io/badge/--6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
+              </LittleProject>
+              <LittleProject
                 name='Photo Cloud'
                 link='https://github.com/JinhyeokFang/PhotoCloudServer'
                 title='휴대폰 사진을 관리하는 클라우드 서버 + 안드로이드 앱'
