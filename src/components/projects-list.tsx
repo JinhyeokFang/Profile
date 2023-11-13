@@ -76,7 +76,7 @@ export const ProjectsList = () => {
               </Project>
               <LittleProject
                 name='어디더라'
-                link='https://github.com/JinhyeokFang/PhotoCloudServer'
+                link='https://github.com/JinhyeokFang/Eodideora'
                 title='Spring Webflux, Kotlin Coroutine 기반 물건 위치 메모 서비스'
               >
                 <img className={styles.tag} src="https://img.shields.io/badge/--6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
