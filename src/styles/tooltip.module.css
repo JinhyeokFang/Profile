@@ -1,0 +1,19 @@
+.tooltip {
+    display: flex;
+    justify-content: center;
+}
+
+.tooltip > .description {
+    opacity: 0;
+    transition: 0.2s all;
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 56px;
+}
+
+.tooltip:hover > .description {
+    opacity: 1;
+}

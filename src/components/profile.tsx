@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import profileImage from '../../public/profile.jpg'
 import styles from '../styles/profile.module.css'
+import { Tooltip } from './tooltip'
 
 export const Profile = () => {
     return (
@@ -15,7 +16,7 @@ export const Profile = () => {
                       <h1 className={styles.name}><span>도전, 성장하는 백엔드 방진혁</span></h1>
                       <p className={styles.description}>
                           같은 기능을 만들때도 다른 방법, 기술을 <b>도전</b>합니다.<br/>
-                          미래를 예측하기보단 <b>현재에</b> 집중하는 코드를 선호합니다. <br/>
+                          미래를 예측하기보단 <b>현재</b>에 집중하는 코드를 선호합니다. <br/>
                       </p>
                   </div>
               </section>
@@ -30,6 +31,7 @@ export const Profile = () => {
                   <p className={styles.school}><b>경기대학교 AI컴퓨터공학부 컴퓨터공학전공</b> 재학 <span className={styles.studyPeriod}>(21.03 ~ )</span></p>
                   <p className={styles.school}><b>선린인터넷고등학교 소프트웨어과</b> 졸업 <span className={styles.studyPeriod}>(18.03 ~ 21.02)</span></p>
               </section>
+              <h1 className={styles.subtitle}>기술 스택</h1>
               <section>
                 <ul className={styles.skillList}>
                   <img src="https://img.shields.io/badge/Typescript-3178C6.svg?&style=for-the-badge&logo=Typescript&logoColor=white"/>
@@ -48,7 +50,6 @@ export const Profile = () => {
                 </ul>
                 <ul className={styles.skillList}>
                   <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
-                  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"/>
                   <img src="https://img.shields.io/badge/Nginx-009639.svg?&style=for-the-badge&logo=Nginx&logoColor=white"/>
                   <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
                   <img src="https://img.shields.io/badge/Docker-2496ED.svg?&style=for-the-badge&logo=Docker&logoColor=white"/>
