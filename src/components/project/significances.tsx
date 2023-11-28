@@ -12,7 +12,7 @@ interface ProjectPageSignificancesProps {
 export const ProjectPageSignificances = (props: ProjectPageSignificancesProps) => {
     return (
       <div className={styles.significances}>
-          <h2 className={styles.subtitle}>프로젝트 의의</h2>
+          <h2 className={styles.subtitle}>주요 도전 포인트</h2>
           <ol className={styles.significanceList}>
             {
               props.significances.map((significance, index) => (

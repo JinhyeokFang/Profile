@@ -7,7 +7,7 @@ interface ProjectPageFunctionsProps {
 export const ProjectPageFunctions = (props: ProjectPageFunctionsProps) => {
     return (
       <div className={styles.functions}>
-        <h2 className={styles.subtitle}>주요 기능</h2>
+        <h2 className={styles.subtitle}>기능 요약</h2>
         <ul>
           {
             props.functions.map((func, index) => (
