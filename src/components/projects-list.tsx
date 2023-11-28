@@ -38,7 +38,7 @@ export const ProjectsList = () => {
               </Project>
               <Project
                 name='ETA'
-                link='https://github.com/5th-Neordinary-HACKATHON-MEETA/Backend'
+                link='/projects/ETA'
                 title='NestJS 기반 회의 일정 관리 서비스 (5th 너디너리 해커톤 3등)'
                 src={Project3Image}
               >

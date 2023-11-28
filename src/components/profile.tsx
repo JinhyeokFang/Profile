@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import profileImage from '../../public/profile.jpg'
 import styles from '../styles/profile.module.css'
-import { Tooltip } from './tooltip'
 
 export const Profile = () => {
     return (
