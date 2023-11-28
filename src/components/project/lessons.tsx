@@ -1,4 +1,4 @@
-import styles from '../styles/sections.module.css'
+import styles from '../../styles/sections.module.css'
 
 interface ProjectPageLessonsProps {
   lesson: string;

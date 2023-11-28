@@ -5,13 +5,13 @@ import significanceImage2 from '../../../public/screenshots/cafe4me/2.png'
 import significanceImage3 from '../../../public/screenshots/cafe4me/3.png'
 import significanceImage4 from '../../../public/screenshots/cafe4me/4.png'
 
-import { ProjectPageHeader } from '../project-page-header'
-import { ProjectPageInfo } from '../project-page-info'
-import { ProjectPageFunctions } from '../project-page-functions'
-import { ProjectPageSignificances } from '../project-page-significances'
-import { ProjectPageLessons } from '../project-page-lessons'
-import { ProjectPageNeeds } from '../project-page-needs'
-import { ProjectPageEtc } from '../project-page-etc'
+import { ProjectPageHeader } from '../project/header'
+import { ProjectPageInfo } from '../project/info'
+import { ProjectPageFunctions } from '../project/functions'
+import { ProjectPageSignificances } from '../project/significances'
+import { ProjectPageLessons } from '../project/lessons'
+import { ProjectPageNeeds } from '../project/needs'
+import { ProjectPageEtc } from '../project/etc'
 
 export const Cafe4MeSection = () => {
     return (

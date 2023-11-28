@@ -4,12 +4,12 @@ import significanceImage1 from '../../../public/screenshots/eta/1.png'
 import significanceImage2 from '../../../public/screenshots/eta/2.png'
 import significanceImage3 from '../../../public/screenshots/eta/3.png'
 
-import { ProjectPageHeader } from '../project-page-header'
-import { ProjectPageInfo } from '../project-page-info'
-import { ProjectPageFunctions } from '../project-page-functions'
-import { ProjectPageSignificances } from '../project-page-significances'
-import { ProjectPageLessons } from '../project-page-lessons'
-import { ProjectPageEtc } from '../project-page-etc'
+import { ProjectPageHeader } from '../project/header'
+import { ProjectPageInfo } from '../project/info'
+import { ProjectPageFunctions } from '../project/functions'
+import { ProjectPageSignificances } from '../project/significances'
+import { ProjectPageLessons } from '../project/lessons'
+import { ProjectPageEtc } from '../project/etc'
 
 export const ETASection = () => {
     return (

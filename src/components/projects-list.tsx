@@ -1,5 +1,5 @@
 import styles from '../styles/projects-list.module.css'
-import { Project } from './project';
+import { Project } from './project/project';
 
 import Project1Image from '../../public/screenshots/cafe4me/profile.png'
 import Project2Image from '../../public/screenshots/sumsumzip/1.png'
@@ -7,7 +7,23 @@ import Project3Image from '../../public/screenshots/eta/profile.png'
 import Project4Image from '../../public/screenshots/take-me-home/1.png'
 import Project5Image from '../../public/screenshots/url-shortener/jinhyuk.png'
 import Project6Image from '../../public/screenshots/pedometer/1.png'
-import { LittleProject } from './little-project';
+import { LittleProject } from './project/little-project';
+
+import AwsSmallBadge from '../../public/small-badges/Aws.svg'
+import DynamoDBSmallBadge from '../../public/small-badges/Dynamodb.svg'
+import ExpressSmallBadge from '../../public/small-badges/Express.svg'
+import JavaSmallBadge from '../../public/small-badges/Java.svg'
+import JestSmallBadge from '../../public/small-badges/Jest.svg'
+import KotlinSmallBadge from '../../public/small-badges/Kotlin.svg'
+import MongoDBSmallBadge from '../../public/small-badges/Mongodb.svg'
+import MysqlSmallBadge from '../../public/small-badges/Mysql.svg'
+import NestJsSmallBadge from '../../public/small-badges/Nest.js.svg'
+import NextJsSmallBadge from '../../public/small-badges/Next.js.svg'
+import ServerlessSmallBadge from '../../public/small-badges/Serverless.svg'
+import SocketIoSmallBadge from '../../public/small-badges/Socket.io.svg'
+import SpringBootSmallBadge from '../../public/small-badges/SpringBoot.svg'
+import TypeOrmSmallBadge from '../../public/small-badges/Typeorm.svg'
+import VueSmallBadge from '../../public/small-badges/Vue.svg'
 
 export const ProjectsList = () => {
   return (
@@ -21,10 +37,10 @@ export const ProjectsList = () => {
                 title='AWS ECS로 자동배포되는 Nest+Next기반 카페 추천 웹서비스'
                 src={Project1Image}
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--000000.svg?&style=for-the-badge&logo=Next.JS&logoColor=white"/>
+                <NestJsSmallBadge />
+                <MongoDBSmallBadge />
+                <AwsSmallBadge />
+                <NextJsSmallBadge />
               </Project>
               <Project
                 name='숨숨집'
@@ -32,9 +48,9 @@ export const ProjectsList = () => {
                 title='Springboot 3, Java 17+ 기반 고양이 사진 공유 웹서비스'
                 src={Project2Image}
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
+                <SpringBootSmallBadge />
+                <JavaSmallBadge />
+                <MysqlSmallBadge />
               </Project>
               <Project
                 name='ETA'
@@ -42,9 +58,10 @@ export const ProjectsList = () => {
                 title='NestJS 기반 회의 일정 관리 서비스 (5th 너디너리 해커톤 3등)'
                 src={Project3Image}
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+                <NestJsSmallBadge />
+                <MysqlSmallBadge />
+                <AwsSmallBadge />
+                <TypeOrmSmallBadge />
               </Project>
               <Project
                 name='Take-Me-Home'
@@ -52,10 +69,10 @@ export const ProjectsList = () => {
                 title='TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버'
                 src={Project4Image}
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--C21325.svg?&style=for-the-badge&logo=Jest&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/-TypeOrm-202020.svg?&style=for-the-badge"/>
+                <NestJsSmallBadge />
+                <JestSmallBadge />
+                <MysqlSmallBadge />
+                <TypeOrmSmallBadge />
               </Project>
               <Project
                 name='Jinhy.uk'
@@ -63,8 +80,8 @@ export const ProjectsList = () => {
                 title='Next.js Vercel로 배포되는 프로필 & URL 단축 서비스'
                 src={Project5Image}
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--000000.svg?&style=for-the-badge&logo=Next.JS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white"/>
+                <NextJsSmallBadge />
+                <DynamoDBSmallBadge />
               </Project>
               <Project
                 name='Pedometer'
@@ -72,69 +89,58 @@ export const ProjectsList = () => {
                 title='Serverless & svg로 만든 사이트 방문 횟수, 통계 웹 서비스'
                 src={Project6Image}
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4FC08D.svg?&style=for-the-badge&logo=Vue.js&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/-Serverless-202020.svg?&style=for-the-badge"/>
+                <NestJsSmallBadge />
+                <MongoDBSmallBadge />
+                <VueSmallBadge />
+                <ServerlessSmallBadge />
               </Project>
               <Project
                 name='Newsfeed'
                 link='/projects/Newsfeed'
                 title='Express & Inversify 기반 자체 프레임워크로 서버 구현'
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--C21325.svg?&style=for-the-badge&logo=Jest&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/-Inversify-202020.svg?&style=for-the-badge"/>
+                <ExpressSmallBadge />
+                <JestSmallBadge />
+                <MysqlSmallBadge />
               </Project>
               <Project
                 name='어디더라 (개발중)'
                 link='https://github.com/JinhyeokFang/Eodideora'
                 title='Spring Webflux, Kotlin Coroutine 기반 물건 위치 메모 서비스'
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4479A1.svg?&style=for-the-badge&logo=MySQL&logoColor=white"/>
+                <SpringBootSmallBadge />
+                <KotlinSmallBadge />
+                <MysqlSmallBadge />
               </Project>
-              <LittleProject
-                name='Photo Cloud'
-                link='https://github.com/JinhyeokFang/PhotoCloudServer'
-                title='휴대폰 사진을 관리하는 클라우드 서버 + 안드로이드 앱'
-              >
-                <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
-              </LittleProject>
               <LittleProject
                 name='스테일메이트'
                 link='https://github.com/JinhyeokFang/horse-chess-server'
                 title='Socket.io로 stateful하게 통신하는 모바일 게임서버'
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--black?style=for-the-badge&logo=socket.io&badgeColor=010101"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
+                <SocketIoSmallBadge />
+                <MongoDBSmallBadge />
               </LittleProject>
               <LittleProject
                 name='외주 프로젝트 1'
                 title='Nest.js 기반 웹 페이지 서버 (코드 비공개)'
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--E0234E.svg?&style=for-the-badge&logo=NestJS&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
+                <NestJsSmallBadge />
+                <MongoDBSmallBadge />
               </LittleProject>
               <LittleProject
                 name='외주 프로젝트 2'
                 title='Express API 서버 & Vue 기반 관리자용 웹 페이지 (코드 비공개)'
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--4FC08D.svg?&style=for-the-badge&logo=Vue.js&logoColor=white"/>
+                <ExpressSmallBadge />
+                <MongoDBSmallBadge />
+                <VueSmallBadge />
               </LittleProject>
               <LittleProject
                 name='외주 프로젝트 1'
                 title='Express, Typescript 기반 앱 서비스 API 서버 (코드 비공개)'
               >
-                <img className={styles.tag} src="https://img.shields.io/badge/--404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-                <img className={styles.tag} src="https://img.shields.io/badge/--47A248.svg?&style=for-the-badge&logo=MongoDB&logoColor=white"/>
+                <ExpressSmallBadge />
+                <MongoDBSmallBadge />
               </LittleProject>
           </ul>
         </div>

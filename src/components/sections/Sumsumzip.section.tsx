@@ -1,13 +1,13 @@
 import styles from '../../styles/sections.module.css'
 import profileImage from '../../../public/screenshots/sumsumzip/1.png'
 
-import { ProjectPageHeader } from '../project-page-header'
-import { ProjectPageInfo } from '../project-page-info'
-import { ProjectPageFunctions } from '../project-page-functions'
-import { ProjectPageLessons } from '../project-page-lessons'
-import { ProjectPageEtc } from '../project-page-etc'
-import { ProjectPageNeeds } from '../project-page-needs'
-import { ProjectPageSignificances } from '../project-page-significances'
+import { ProjectPageHeader } from '../project/header'
+import { ProjectPageInfo } from '../project/info'
+import { ProjectPageFunctions } from '../project/functions'
+import { ProjectPageLessons } from '../project/lessons'
+import { ProjectPageEtc } from '../project/etc'
+import { ProjectPageNeeds } from '../project/needs'
+import { ProjectPageSignificances } from '../project/significances'
 
 export const SumsumzipSection = () => {
     return (

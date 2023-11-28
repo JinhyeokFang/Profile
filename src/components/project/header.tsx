@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/sections.module.css'
+import styles from '../../styles/sections.module.css'
 
 interface ProjectPageHeaderProps {
   src?: any;
