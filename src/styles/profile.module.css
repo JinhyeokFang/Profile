@@ -82,7 +82,7 @@
     font-size: 24px;
 }
 
-.skillList * {
+.skillList > * {
     margin-right: 8px;
     margin-top: 8px;
 }

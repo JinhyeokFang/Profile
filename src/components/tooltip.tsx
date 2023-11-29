@@ -1,13 +1,12 @@
 import styles from '../styles/tooltip.module.css'
 
 interface TooltipProps {
-  title: string;
-  description: string;
   children: React.ReactNode;
+  width: `${number}%`;
 }
 
 export const Tooltip = (props: TooltipProps) => {
-  const { title, description, children } = props;
+  const { children, width } = props;
 
     return (
         <div className={styles.tooltip}>
@@ -15,8 +14,14 @@ export const Tooltip = (props: TooltipProps) => {
                 { children }
             </div>
             <div className={styles.description}>
-                <h1>{ title }</h1>
-                <p>{ description }</p>
+              { children }
+              <div className={styles.barContainer}>
+                <div className={styles.bar} style={{
+                  width: `calc(${width} - 20px)`,
+                }}>
+                  { width }
+                </div>
+              </div>
             </div>
         </div>
     );
