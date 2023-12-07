@@ -37,20 +37,19 @@ export const ETASection = () => {
                   {
                     src: significanceImage1,
                     title: '1. TypeOrm의 QueryBuilder로 복잡한 쿼리 작성',
-                    description: '',
+                    description: 'QueryBuilder로 서브 쿼리가 들어간 복잡한 쿼리문을 작성했습니다. 테이블 반정규화가 어려운 상태에서 3개의 테이블에 나뉘어 저장된 컬럼들을 불러오기 위해 다중 Join문을 작성했습니다.',
                   },
                   {
                     src: significanceImage2,
                     title: '2. Passport로 인증 횡단 관심사 분리',
-                    description: ''
+                    description: 'JWT 토큰의 유효성을 검증하고 유저 객체를 불러오는 로직을 Passport와 Nest.js의 데코레이터로 분리했습니다. 데코레이터로 횡단 관심사를 분리함으로써 반복되는 코드를 줄일 수 있었습니다.'
                   },
                   {
                     src: significanceImage3,
-                    title: '3. 공통 응답 코드로 상세 정보 제공',
-                    description: '',
+                    title: '3. 공통 응답 포맷 및 오류 코드',
+                    description: '항상 똑같은 JSON 포맷으로 응답함으로써 클라이언트와의 협업에 도움이 되도록 했습니다. HTTP Status Code 외에도 더 상세한 정보를 클라이언트에 전달하기 위해 오류 코드를 만들었습니다.',
                   }
                 ]}/>
-                <ProjectPageLessons lesson='' />
                 <ProjectPageEtc>
                 </ProjectPageEtc>
               </article>

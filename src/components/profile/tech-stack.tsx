@@ -67,9 +67,21 @@ export const TechStack = () => {
           >
             <NextJsBadge />
           </Tooltip>
-          <JestBadge />
-          <VueJsBadge />
-          <SpringBootBadge />
+          <Tooltip
+            width='50%'
+          >
+            <JestBadge />
+          </Tooltip>
+          <Tooltip
+            width='30%'
+          >
+            <VueJsBadge />
+          </Tooltip>
+          <Tooltip
+            width='30%'
+          >
+            <SpringBootBadge />
+          </Tooltip>
         </ul>
         <ul className={styles.skillList}>
           <GithubBadge />

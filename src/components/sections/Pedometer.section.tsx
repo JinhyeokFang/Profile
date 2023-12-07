@@ -38,7 +38,6 @@ export const PedometerSection = () => {
                     description: '조회수를 데이터베이스로부터 불러오고 추가하는 Nest.js 서버를 Serverless 프레임워크를 활용해 AWS Lambda로 배포했습니다.',
                   },
                 ]}/>
-                <ProjectPageLessons lesson='처음으로 Serverless Framework를 활용해본 프로젝트입니다. AWS 람다와는 다르게 복잡한 설정 없이 yml 파일 하나면 바로 배포가 가능한 점이 편리하고 인상깊었습니다. 조회수를 표시하는 이미지는 SVG에 조회수를 동적으로 집어넣어 생성했습니다.' />
               </article>
             </div>
             <hr />

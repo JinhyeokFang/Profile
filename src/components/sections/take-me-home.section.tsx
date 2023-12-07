@@ -64,7 +64,6 @@ export const TakeMeHomeSection = () => {
                     description: 'Event로 입양 요청 내역 모듈과 보호소 모듈의 결합도를 낮추었습니다. 입양 요청 내역 모듈에서 입양이 승인되면 adoption-request.accepted 이벤트를 전송합니다. 이벤트를 받은 보호소 모듈은 반려동물을 입양하는 로직을 호출합니다. NestJS의 EventEmitter2 모듈을 사용했습니다. ',
                   },
                 ]}/>
-                <ProjectPageLessons lesson='테스트와 리펙토링으로 핵심 로직을 먼저 개발하고 세부적인 아키텍처 구현을 뒤로 미룰 수 있었습니다. 아키텍처의 세부 사항을 미리 구현하지 않으니 계획이 변경되어도 수정되는 코드가 적었습니다. 테스트와 리팩토링이 장기적으로 보았을땐 시간을 절약해준다는 점을 깨닫게 되었습니다.' />
                 <br />
                 <ProjectPageNeeds needs={[
                   '더 많은 경우의 수를 커버하는 테스트 케이스',

@@ -20,7 +20,6 @@ import MysqlSmallBadge from '../../public/small-badges/Mysql.svg'
 import NestJsSmallBadge from '../../public/small-badges/Nest.js.svg'
 import NextJsSmallBadge from '../../public/small-badges/Next.js.svg'
 import ServerlessSmallBadge from '../../public/small-badges/Serverless.svg'
-import SocketIoSmallBadge from '../../public/small-badges/Socket.io.svg'
 import SpringBootSmallBadge from '../../public/small-badges/SpringBoot.svg'
 import TypeOrmSmallBadge from '../../public/small-badges/Typeorm.svg'
 import VueSmallBadge from '../../public/small-badges/Vue.svg'
@@ -113,14 +112,6 @@ export const ProjectsList = () => {
                 <MysqlSmallBadge />
               </Project>
               <LittleProject
-                name='스테일메이트'
-                link='https://github.com/JinhyeokFang/horse-chess-server'
-                title='Socket.io로 stateful하게 통신하는 모바일 게임서버'
-              >
-                <SocketIoSmallBadge />
-                <MongoDBSmallBadge />
-              </LittleProject>
-              <LittleProject
                 name='외주 프로젝트 1'
                 title='Nest.js 기반 웹 페이지 서버 (코드 비공개)'
               >
@@ -136,7 +127,7 @@ export const ProjectsList = () => {
                 <VueSmallBadge />
               </LittleProject>
               <LittleProject
-                name='외주 프로젝트 1'
+                name='외주 프로젝트 3'
                 title='Express, Typescript 기반 앱 서비스 API 서버 (코드 비공개)'
               >
                 <ExpressSmallBadge />
