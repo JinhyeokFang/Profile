@@ -52,8 +52,6 @@ export const SumsumzipSection = () => {
                     description: 'AWS S3와 SDK로 고양이 이미지를 업로드하고 저장했습니다. Cloudfront를 추가해 이미지가 캐싱되도록 구축했습니다.',
                   },
                 ]}/>
-                <ProjectPageLessons lesson=''/>
-                <br />
                 <ProjectPageNeeds needs={[
                   '카카오, 네이버 소셜 로그인 지원',
                   '이미지 다중 업로드',
