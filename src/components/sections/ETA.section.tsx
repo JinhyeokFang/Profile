@@ -50,8 +50,6 @@ export const ETASection = () => {
                     description: '항상 똑같은 JSON 포맷으로 응답함으로써 클라이언트와의 협업에 도움이 되도록 했습니다. HTTP Status Code 외에도 더 상세한 정보를 클라이언트에 전달하기 위해 오류 코드를 만들었습니다.',
                   }
                 ]}/>
-                <ProjectPageEtc>
-                </ProjectPageEtc>
               </article>
             </div>
         </>

@@ -57,9 +57,6 @@ export const SumsumzipSection = () => {
                   '이미지 다중 업로드',
                   '자동 배포'
                 ]} />
-                <br />
-                <ProjectPageEtc>
-                </ProjectPageEtc>
               </article>
             </div>
         </>

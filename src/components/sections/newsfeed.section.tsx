@@ -63,13 +63,6 @@ export const NewsfeedSection = () => {
                   '클라이언트 구현', 
                 ]} />
                 <br />
-                <ProjectPageEtc>
-                  기존에 사용하던 서버 레포지토리 주소: &nbsp;
-                  <a href="https://github.com/JinhyeokFang/cafe-for-me-server">https://github.com/JinhyeokFang/cafe-for-me-server</a>
-                  <br />
-                  기존에 사용하던 클라이언트 레포지토리 주소: &nbsp;
-                  <a href="https://github.com/JinhyeokFang/cafe-for-me-client">https://github.com/JinhyeokFang/cafe-for-me-client</a>
-                </ProjectPageEtc>
               </article>
             </div>
             <hr />
