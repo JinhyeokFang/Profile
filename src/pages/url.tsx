@@ -12,7 +12,7 @@ const UrlPage: NextPage = () => {
 
   const buttonClicked = async () => {
     try {
-      await axios.post(`https://bang.jinhy.uk/api/url`, {
+      await axios.post(`https://jinhy.uk/api/url`, {
         siteName: shortUrl,
         url: longUrl,
       });

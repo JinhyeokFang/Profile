@@ -12,8 +12,8 @@ export const ProfileInformation = () => {
               <p className={styles.school}><b>선린인터넷고등학교 소프트웨어과</b> 졸업 <span className={styles.studyPeriod}>(18.03 ~ 21.02)</span></p>
           </section>
           <section>
-              <p className={styles.school}>정보처리기능사 <span className={styles.studyPeriod}>(2020.08)</span></p>
-              <p className={styles.school}>SQL 개발자 <span className={styles.studyPeriod}>(2023.12)</span></p>
+              <p className={styles.school}>정보처리기능사 | SQL 개발자</p>
+              <p className={styles.school}>5th UMC | 20th IWOP</p>
           </section>
         </>
     )

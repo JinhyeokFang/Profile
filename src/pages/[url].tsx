@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export async function getServerSideProps(context: { query: { url: string } }) {
     const { url } = context.query;
-    const apiResult = await axios.get(`https://bang.jinhy.uk/api/url?name=${url}`);
+    const apiResult = await axios.get(`https://jinhy.uk/api/url?name=${url}`);
     const responseData: Record<string, unknown> = apiResult.data;
     const siteData: Record<string, unknown> = responseData.site as Record<string, unknown>;
     const redirectUrl = siteData ? siteData.url : '../';

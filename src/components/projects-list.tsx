@@ -103,13 +103,25 @@ export const ProjectsList = () => {
                 <MysqlSmallBadge />
               </Project>
               <Project
-                name='어디더라 (개발중)'
+                name='어디더라 (토이플젝 | 개발중)'
                 link='https://github.com/JinhyeokFang/Eodideora'
                 title='Spring Webflux, Kotlin Coroutine 기반 물건 위치 메모 서비스'
               >
                 <SpringBootSmallBadge />
                 <KotlinSmallBadge />
                 <MysqlSmallBadge />
+              </Project>
+              <Project
+                name='UMC Project 1 (예정)'
+                title='5th UMC Seoul Hackathon'
+              >
+                <SpringBootSmallBadge />
+              </Project>
+              <Project
+                name='UMC Project 2 (예정)'
+                title='Spring Boot'
+              >
+                <SpringBootSmallBadge />
               </Project>
               <LittleProject
                 name='외주 프로젝트 1'
