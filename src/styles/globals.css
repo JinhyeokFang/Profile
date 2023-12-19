@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   border: none;
+  word-break: keep-all;
 }
 
 body, body[data-theme="light"] {
