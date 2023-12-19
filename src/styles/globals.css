@@ -17,6 +17,10 @@ body[data-theme="dark"] {
   --background: #121212;
 }
 
+body {
+  overflow-x: none;
+}
+
 .page {
     display: flex;
     flex-direction: column;

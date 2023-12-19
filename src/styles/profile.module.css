@@ -21,7 +21,7 @@
 }
 
 .title {
-    font-size: 32px;
+    font-size: 40px;
     padding: 8px 0;
 }
 
@@ -48,25 +48,21 @@
 .name {
     display: flex;
     align-items: center;
-    font-size: 48px;
-    padding-bottom: 8px;
+    font-size: 56px;
+    padding: 16px 0;
+    line-height: 72px;
 }
 
 .name span {
     display: block;
 }
 
-.catchword {
-    font-size: 24px;
-    margin-left: 8px;
-}
-
 .description {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .link, .school {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .studyPeriod {
