@@ -21,8 +21,8 @@
 }
 
 .title {
-    font-size: 40px;
-    padding-top: 32px;
+    font-size: 32px;
+    padding-top: 24px;
     padding-bottom: 4px;
 }
 
@@ -63,11 +63,7 @@
 }
 
 .link, .school {
-    font-size: 24px;
-}
-
-.studyPeriod {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .skillList {

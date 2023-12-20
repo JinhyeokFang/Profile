@@ -19,18 +19,10 @@ import AwsBadge from '../../../public/badges/Aws.svg'
 import DockerBadge from '../../../public/badges/Docker.svg'
 import MysqlBadge from '../../../public/badges/Mysql.svg'
 import MongodbBadge from '../../../public/badges/Mongodb.svg'
-import { Tooltip } from '../tooltip'
 
 export const TechStack = () => {
     return (
       <section>
-        <ul className={styles.skillList}>
-            <TypeScriptBadge />
-            <NodeJsBadge />
-            <JavaScriptBadge />
-            <JavaBadge />
-            <KotlinBadge />
-        </ul>
         <ul className={styles.skillList}>
             <ExpressJsBadge />
             <NestJsBadge />
