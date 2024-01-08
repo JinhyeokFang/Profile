@@ -112,16 +112,20 @@ export const ProjectsList = () => {
                 <MysqlSmallBadge />
               </Project>
               <Project
-                name='UMC Project 1 (예정)'
+                name='To.Mate'
                 title='5th UMC Seoul Hackathon'
               >
                 <SpringBootSmallBadge />
+                <JavaSmallBadge />
+                <MysqlSmallBadge />
               </Project>
               <Project
-                name='UMC Project 2 (예정)'
-                title='Spring Boot'
+                name='썰매 (개발중)'
+                title='UMC Spring Boot 팀 프로젝트'
               >
                 <SpringBootSmallBadge />
+                <JavaSmallBadge />
+                <MysqlSmallBadge />
               </Project>
               <LittleProject
                 name='외주 프로젝트 1'

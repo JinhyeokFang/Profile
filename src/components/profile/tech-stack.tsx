@@ -27,7 +27,6 @@ export const TechStack = () => {
             <ExpressJsBadge />
             <NestJsBadge />
             <NextJsBadge />
-            <JestBadge />
             <VueJsBadge />
             <SpringBootBadge />
         </ul>
