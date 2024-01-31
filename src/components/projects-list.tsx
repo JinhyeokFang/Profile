@@ -1,12 +1,12 @@
 import styles from '../styles/projects-list.module.css'
 import { Project } from './project/project';
 
-import Project1Image from '../../public/screenshots/cafe4me/profile.png'
-import Project2Image from '../../public/screenshots/sumsumzip/1.png'
-import Project3Image from '../../public/screenshots/eta/profile.png'
-import Project4Image from '../../public/screenshots/take-me-home/1.png'
-import Project5Image from '../../public/screenshots/url-shortener/jinhyuk.png'
-import Project6Image from '../../public/screenshots/pedometer/1.png'
+import Cafe4MeImage from '../../public/screenshots/cafe4me/profile.png'
+import SumsumzipImage from '../../public/screenshots/sumsumzip/1.png'
+import ETAProjectImage from '../../public/screenshots/eta/profile.png'
+import TakeMeHomeImage from '../../public/screenshots/take-me-home/1.png'
+import SurveyMateImage from '../../public/screenshots/survey-mate/survey-mate.png'
+import ToMateImage from '../../public/screenshots/tomate/to.mate.png'
 import { LittleProject } from './project/little-project';
 
 import AwsSmallBadge from '../../public/small-badges/Aws.svg'
@@ -31,10 +31,46 @@ export const ProjectsList = () => {
           <h1 className={styles.title}>프로젝트</h1>
           <ul className={styles.projectList}>
               <Project
+                name='ETA'
+                link='/projects/ETA'
+                title='NestJS 기반 회의 일정 관리 서비스 (5th 너디너리 해커톤 3등)'
+                dateStart='2023.08'
+                src={ETAProjectImage}
+              >
+                <NestJsSmallBadge />
+                <MysqlSmallBadge />
+                <AwsSmallBadge />
+                <TypeOrmSmallBadge />
+              </Project>
+              <Project
+                name='썰매 (개발중)'
+                title='UMC Spring Boot 팀 프로젝트'
+                link='/projects/Survey-Mate'
+                src={SurveyMateImage}
+                dateStart='2024.01'
+                dateEnd='2024.02'
+              >
+                <SpringBootSmallBadge />
+                <JavaSmallBadge />
+                <MysqlSmallBadge />
+              </Project>
+              <Project
+                name='To.Mate'
+                title='5th UMC Seoul Hackathon'
+                link='/projects/To.Mate'
+                src={ToMateImage}
+                dateStart='2024.01'
+              >
+                <SpringBootSmallBadge />
+                <JavaSmallBadge />
+                <MysqlSmallBadge />
+              </Project>
+              <Project
                 name='Cafe4Me'
                 link='/projects/Cafe4Me'
                 title='AWS ECS로 자동배포되는 Nest+Next기반 카페 추천 웹서비스'
-                src={Project1Image}
+                src={Cafe4MeImage}
+                dateStart='2022.11'
               >
                 <NestJsSmallBadge />
                 <MongoDBSmallBadge />
@@ -45,28 +81,20 @@ export const ProjectsList = () => {
                 name='숨숨집'
                 link='/projects/sumsumzip'
                 title='Springboot 3, Java 17+ 기반 고양이 사진 공유 웹서비스'
-                src={Project2Image}
+                src={SumsumzipImage}
+                dateStart='2023.08'
               >
                 <SpringBootSmallBadge />
                 <JavaSmallBadge />
                 <MysqlSmallBadge />
               </Project>
               <Project
-                name='ETA'
-                link='/projects/ETA'
-                title='NestJS 기반 회의 일정 관리 서비스 (5th 너디너리 해커톤 3등)'
-                src={Project3Image}
-              >
-                <NestJsSmallBadge />
-                <MysqlSmallBadge />
-                <AwsSmallBadge />
-                <TypeOrmSmallBadge />
-              </Project>
-              <Project
                 name='Take-Me-Home'
                 link='/projects/take-me-home'
                 title='TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버'
-                src={Project4Image}
+                src={TakeMeHomeImage}
+                dateStart='2022.12'
+                dateEnd='2023.01'
               >
                 <NestJsSmallBadge />
                 <JestSmallBadge />
@@ -77,7 +105,6 @@ export const ProjectsList = () => {
                 name='Jinhy.uk'
                 link='/projects/URL-Shortener'
                 title='Next.js Vercel로 배포되는 프로필 & URL 단축 서비스'
-                src={Project5Image}
               >
                 <NextJsSmallBadge />
                 <DynamoDBSmallBadge />
@@ -86,7 +113,6 @@ export const ProjectsList = () => {
                 name='Pedometer'
                 link='/projects/Pedometer'
                 title='Serverless & svg로 만든 사이트 방문 횟수, 통계 웹 서비스'
-                src={Project6Image}
               >
                 <NestJsSmallBadge />
                 <MongoDBSmallBadge />
@@ -109,22 +135,6 @@ export const ProjectsList = () => {
               >
                 <SpringBootSmallBadge />
                 <KotlinSmallBadge />
-                <MysqlSmallBadge />
-              </Project>
-              <Project
-                name='To.Mate'
-                title='5th UMC Seoul Hackathon'
-              >
-                <SpringBootSmallBadge />
-                <JavaSmallBadge />
-                <MysqlSmallBadge />
-              </Project>
-              <Project
-                name='썰매 (개발중)'
-                title='UMC Spring Boot 팀 프로젝트'
-              >
-                <SpringBootSmallBadge />
-                <JavaSmallBadge />
                 <MysqlSmallBadge />
               </Project>
               <LittleProject

@@ -2,13 +2,13 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { UMCHackathonProjectSection } from '@/components/sections/UMCHackathonProject.section'
+import { ToMateSection } from '@/components/sections/To.Mate.section'
 
-export default function UMCHackathonProject() {
+export default function ToMateProject() {
   return (
     <>
       <Head>
-        <title>백엔드 개발자 방진혁 - </title>
+        <title>백엔드 개발자 방진혁 - To.Mate</title>
         <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="title" content="project" />
         <meta name="description" content=" project by Jin-hyeok Bang" />
@@ -23,7 +23,7 @@ export default function UMCHackathonProject() {
       <main className='page'>
         <FAB />
         <Title />
-        <UMCHackathonProjectSection />
+        <ToMateSection />
         <Footer />
       </main>
     </>

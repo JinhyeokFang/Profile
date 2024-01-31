@@ -8,10 +8,12 @@ interface ProjectProps {
   title: string; // TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버
   children: React.ReactNode;
   src?: any;
+  dateStart?: string;
+  dateEnd?: string;
 }
 
 export const Project = (props: ProjectProps) => {
-  const { name, link, title, children, src } = props;
+  const { name, link, title, children, src, dateStart, dateEnd } = props;
   const router = useRouter();
 
   const moveTo = (location: string | undefined) => () => {
@@ -33,6 +35,19 @@ export const Project = (props: ProjectProps) => {
         }
         <h2 className={styles.name}>{ name }</h2>
         <div className={styles.content}>
+            {
+              dateStart &&
+              (
+                <p>
+                  { 
+                    dateStart +
+                    (
+                      dateEnd ? ` ~ ${dateEnd}` : ''
+                    ) 
+                  }
+                </p>
+              )
+            }
             <p>{ title }</p>
             <p>
               { children }

@@ -40,6 +40,7 @@
     width: 100%;
     max-width: 600px;
     margin-left: 16px;
+    padding-bottom: 24px;
 }
 
 .link {
@@ -49,9 +50,9 @@
 .name {
     display: flex;
     align-items: center;
-    font-size: 56px;
-    padding: 16px 0;
-    line-height: 72px;
+    font-size: 40px;
+    padding: 8px 0;
+    line-height: 64px;
 }
 
 .name span {
@@ -80,7 +81,15 @@
     margin-top: 8px;
 }
 
-@media (max-width: 972px) { 
+@media (max-width: 972px) {
+    .name {
+        flex-direction: column;
+    }
+
+    .description {
+        text-align: center;
+    }
+
     .topArticle {
         flex-direction: column;
         justify-content: flex-start;
@@ -92,11 +101,6 @@
     }
 }
 
-@media (max-width: 665px) {
-    .name {
-        flex-direction: column;
-    }
-}
 
 @media (max-width: 500px) {
     .catchword {

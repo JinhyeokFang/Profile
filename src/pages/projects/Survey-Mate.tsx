@@ -2,9 +2,9 @@ import Head from 'next/head'
 import { Title } from '@/components/title'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
-import { UMCProjectSection } from '@/components/sections/UMCProject.section'
+import { SurveyMateSection } from '@/components/sections/Survey-Mate.section'
 
-export default function UMCProject() {
+export default function SurveyMateProject() {
   return (
     <>
       <Head>
@@ -23,7 +23,7 @@ export default function UMCProject() {
       <main className='page'>
         <FAB />
         <Title />
-        <UMCProjectSection />
+        <SurveyMateSection />
         <Footer />
       </main>
     </>

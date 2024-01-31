@@ -12,7 +12,7 @@ export const ProfileInformation = () => {
               <p className={styles.school}><b>선린인터넷고</b> 소프트웨어과 졸업</p>
           </section>
           <section>
-              <p className={styles.school}>정보처리기능사 | SQL 개발자</p>
+              <p className={styles.school}>SQL 개발자 | 정보처리기능사</p>
               <p className={styles.school}>5th UMC | 20th IWOP</p>
           </section>
         </>
