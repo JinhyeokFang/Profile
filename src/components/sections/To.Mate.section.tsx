@@ -29,13 +29,13 @@ export const ToMateSection = () => {
                 <ProjectPageSignificances significances={[
                   {
                     src: significanceImage1,
-                    title: '',
-                    description: '',
+                    title: 'JPA와 JPQL 활용',
+                    description: '한 달 단위로 데이터를 불러올 때 JPQL과 서브쿼리 활용',
                   },
                   {
                     src: significanceImage2,
-                    title: '',
-                    description: ''
+                    title: '어노테이션으로 횡단관심사 분리',
+                    description: '@AuthUser'
                   }
                 ]}/>
               </article>
