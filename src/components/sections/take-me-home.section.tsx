@@ -9,9 +9,6 @@ import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
 import { ProjectPageFunctions } from '../project/functions'
 import { ProjectPageSignificances } from '../project/significances'
-import { ProjectPageLessons } from '../project/lessons'
-import { ProjectPageNeeds } from '../project/needs'
-import { ProjectPageEtc } from '../project/etc'
 
 export const TakeMeHomeSection = () => {
     return (
@@ -65,12 +62,6 @@ export const TakeMeHomeSection = () => {
                   },
                 ]}/>
                 <br />
-                <ProjectPageNeeds needs={[
-                  '더 많은 경우의 수를 커버하는 테스트 케이스',
-                  '예외처리 미흡한 부분 개선',
-                  'Transaction 지원',
-                  'CD를 적용하여 자동 무중단 배포 지원', 
-                ]} />
               </article>
             </div>
             <hr />

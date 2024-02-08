@@ -8,8 +8,6 @@ import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
 import { ProjectPageFunctions } from '../project/functions'
 import { ProjectPageSignificances } from '../project/significances'
-import { ProjectPageLessons } from '../project/lessons'
-import { ProjectPageEtc } from '../project/etc'
 
 export const ETASection = () => {
     return (

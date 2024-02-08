@@ -8,9 +8,6 @@ import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
 import { ProjectPageFunctions } from '../project/functions'
 import { ProjectPageSignificances } from '../project/significances'
-import { ProjectPageLessons } from '../project/lessons'
-import { ProjectPageNeeds } from '../project/needs'
-import { ProjectPageEtc } from '../project/etc'
 
 export const NewsfeedSection = () => {
     return (
@@ -55,13 +52,6 @@ export const NewsfeedSection = () => {
                     description: 'DIP(의존성 역전 법칙)을 구현하기 위해 의존성 주입 컨테이너 inversify를 자체 프레임워크에 도입했습니다.',
                   },
                 ]}/>
-                <br />
-                <ProjectPageNeeds needs={[
-                  'CI & CD 구현',
-                  '프레임워크에 모듈 시스템 도입',
-                  '프레임워크, 비즈니스 로직 결합도 낮추기',
-                  '클라이언트 구현', 
-                ]} />
                 <br />
               </article>
             </div>

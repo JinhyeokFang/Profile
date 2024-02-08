@@ -8,9 +8,6 @@ import significanceImage3 from '../../../public/screenshots/sumsumzip/3.png'
 import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
 import { ProjectPageFunctions } from '../project/functions'
-import { ProjectPageLessons } from '../project/lessons'
-import { ProjectPageEtc } from '../project/etc'
-import { ProjectPageNeeds } from '../project/needs'
 import { ProjectPageSignificances } from '../project/significances'
 
 export const SumsumzipSection = () => {
@@ -52,11 +49,6 @@ export const SumsumzipSection = () => {
                     description: 'AWS S3와 SDK로 고양이 이미지를 업로드하고 저장했습니다. Cloudfront를 추가해 이미지가 캐싱되도록 구축했습니다.',
                   },
                 ]}/>
-                <ProjectPageNeeds needs={[
-                  '카카오, 네이버 소셜 로그인 지원',
-                  '이미지 다중 업로드',
-                  '자동 배포'
-                ]} />
               </article>
             </div>
         </>

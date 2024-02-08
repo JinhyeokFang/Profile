@@ -9,8 +9,6 @@ import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
 import { ProjectPageFunctions } from '../project/functions'
 import { ProjectPageSignificances } from '../project/significances'
-import { ProjectPageLessons } from '../project/lessons'
-import { ProjectPageNeeds } from '../project/needs'
 import { ProjectPageEtc } from '../project/etc'
 
 export const Cafe4MeSection = () => {
@@ -59,13 +57,6 @@ export const Cafe4MeSection = () => {
                     description: '기존에 사용하던 Vue 대신 Next.js로 클라이언트를 개발한 첫 프로젝트입니다. React가 Vue보다 생태계가 더 크고 Function 기반 Hooks을 사용하기 더 적합하며 React를 사용하는 SPA를 구현하기에 Next.js가 가장 편리하기에 Next.js를 채택했습니다. 배포의 편리성을 위하여 SSR 대신 CSR을 사용했습니다.',
                   },
                 ]}/>
-                <br />
-                <ProjectPageNeeds needs={[
-                  '테스트 코드 추가',
-                  'AWS 기반 로드벨런싱 추가',
-                  '클라이언트 SSR로 전환',
-                  '카페 데이터 추가', 
-                ]} />
                 <br />
                 <ProjectPageEtc>
                   기존에 사용하던 서버 레포지토리 주소: &nbsp;

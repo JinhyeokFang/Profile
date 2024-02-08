@@ -6,8 +6,6 @@ import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
 import { ProjectPageFunctions } from '../project/functions'
 import { ProjectPageSignificances } from '../project/significances'
-import { ProjectPageNeeds } from '../project/needs'
-import { ProjectPageLessons } from '../project/lessons'
 
 export const PedometerSection = () => {
     return (
