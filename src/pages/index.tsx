@@ -4,6 +4,7 @@ import { Profile } from '@/components/profile'
 import { ProjectsList } from '@/components/projects-list'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Index() {
   return (
@@ -27,6 +28,7 @@ export default function Index() {
         <Profile />
         <ProjectsList />
         <Footer />
+        <Analytics />
       </main>
     </>
   )
