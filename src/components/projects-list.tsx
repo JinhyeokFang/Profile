@@ -4,7 +4,7 @@ import { Project } from './project/project';
 import Cafe4MeImage from '../../public/screenshots/cafe4me/profile.png'
 import SumsumzipImage from '../../public/screenshots/sumsumzip/1.png'
 import ETAProjectImage from '../../public/screenshots/eta/profile.png'
-import TakeMeHomeImage from '../../public/screenshots/take-me-home/1.png'
+import KyonggiTimeImage from '../../public/screenshots/kyonggitime/profile.jpg'
 import SurveyMateImage from '../../public/screenshots/survey-mate/survey-mate.png'
 import ToMateImage from '../../public/screenshots/tomate/to.mate.png'
 import { LittleProject } from './project/little-project';
@@ -36,6 +36,18 @@ export const ProjectsList = () => {
                 title='NestJS 기반 회의 일정 관리 서비스 (5th 너디너리 해커톤 3등)'
                 dateStart='2023.08'
                 src={ETAProjectImage}
+              >
+                <NestJsSmallBadge />
+                <MysqlSmallBadge />
+                <AwsSmallBadge />
+                <TypeOrmSmallBadge />
+              </Project>
+              <Project
+                name='경기타임 (개발, 운영중)'
+                link='/projects/kyonggi-time'
+                title='[누적 방문자 수 700명+] 경기대 시간표 작성 서비스'
+                dateStart='2024.02'
+                src={KyonggiTimeImage}
               >
                 <NestJsSmallBadge />
                 <MysqlSmallBadge />
@@ -89,19 +101,6 @@ export const ProjectsList = () => {
                 <MysqlSmallBadge />
               </Project>
               <Project
-                name='Take-Me-Home'
-                link='/projects/take-me-home'
-                title='TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버'
-                src={TakeMeHomeImage}
-                dateStart='2022.12'
-                dateEnd='2023.01'
-              >
-                <NestJsSmallBadge />
-                <JestSmallBadge />
-                <MysqlSmallBadge />
-                <TypeOrmSmallBadge />
-              </Project>
-              <Project
                 name='Jinhy.uk'
                 link='/projects/URL-Shortener'
                 title='Next.js Vercel로 배포되는 프로필 & URL 단축 서비스'
@@ -120,21 +119,24 @@ export const ProjectsList = () => {
                 <ServerlessSmallBadge />
               </Project>
               <Project
+                name='Take-Me-Home'
+                link='/projects/take-me-home'
+                title='TDD로 DDD를 점진적으로 적용한 Nest.js 기반 API 서버'
+                dateStart='2022.12'
+                dateEnd='2023.01'
+              >
+                <NestJsSmallBadge />
+                <JestSmallBadge />
+                <MysqlSmallBadge />
+                <TypeOrmSmallBadge />
+              </Project>
+              <Project
                 name='Newsfeed'
                 link='/projects/Newsfeed'
                 title='Express & Inversify 기반 자체 프레임워크로 서버 구현'
               >
                 <ExpressSmallBadge />
                 <JestSmallBadge />
-                <MysqlSmallBadge />
-              </Project>
-              <Project
-                name='어디더라 (토이플젝 | 개발중)'
-                link='https://github.com/JinhyeokFang/Eodideora'
-                title='Spring Webflux, Kotlin Coroutine 기반 물건 위치 메모 서비스'
-              >
-                <SpringBootSmallBadge />
-                <KotlinSmallBadge />
                 <MysqlSmallBadge />
               </Project>
               <LittleProject
