@@ -27,6 +27,7 @@ export const KyonggiTimeSection = () => {
                   사이트: <a href="https://kyonggiti.me">https://kyonggiti.me</a><br/>
                   Github(Server): <a href="https://github.com/JinhyeokFang/kyonggi-univ-time-table-server">https://github.com/JinhyeokFang/kyonggi-univ-time-table-server</a><br/>
                   Github(Client): <a href="https://github.com/JinhyeokFang/kyonggi-univ-time-table-client">https://github.com/JinhyeokFang/kyonggi-univ-time-table-client</a><br/>
+                  개발과정 및 후기: <a href="https://jinhy.uk/kyonggitime">https://jinhy.uk/kyonggitime</a><br/>
                 </ProjectPageInfo>
                 <br />
                 <ProjectPageFunctions functions={[
