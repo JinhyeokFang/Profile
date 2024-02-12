@@ -56,7 +56,7 @@ export const ProjectsList = () => {
               </Project>
               <Project
                 name='썰매 (개발중)'
-                title='UMC Spring Boot 팀 프로젝트'
+                title='UMC Spring Boot 팀 프로젝트 (AWS ECS 무중단 자동 배포)'
                 link='/projects/Survey-Mate'
                 src={SurveyMateImage}
                 dateStart='2024.01'
@@ -64,6 +64,7 @@ export const ProjectsList = () => {
               >
                 <SpringBootSmallBadge />
                 <JavaSmallBadge />
+                <AwsSmallBadge />
                 <MysqlSmallBadge />
               </Project>
               <Project
