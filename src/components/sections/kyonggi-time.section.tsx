@@ -19,7 +19,7 @@ export const KyonggiTimeSection = () => {
               <br />
               <article>
                 <ProjectPageInfo 
-                  description='900명 이상의 사용자를 확보한 경기대 시간표 작성 서비스'
+                  description='1700명 이상의 사용자를 확보한 경기대 시간표 작성 서비스'
                   tags={[
                     'NestJS', 'MySQL', 'TypeORM', 'AWS EC2', 'AWS RDS', 'NextJS', 'Vercel'
                   ]}
