@@ -3,7 +3,7 @@ import profileImage from '../../../public/screenshots/survey-mate/survey-mate.pn
 import significanceImage1 from '../../../public/screenshots/survey-mate/1.png'
 import significanceImage2 from '../../../public/screenshots/survey-mate/2.png'
 import significanceImage3 from '../../../public/screenshots/survey-mate/3.png'
-import significanceImage4 from '../../../public/screenshots/survey-mate/survey-mate.png'
+import significanceImage4 from '../../../public/screenshots/survey-mate/4.png'
 
 import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
