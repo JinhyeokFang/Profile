@@ -45,7 +45,7 @@ export const ProjectsList = () => {
               <Project
                 name='경기타임 (개발, 운영중)'
                 link='/projects/kyonggi-time'
-                title='[누적 방문자 2500+] 경기대 시간표 작성 서비스'
+                title='[누적 방문자 3000+] 경기대 시간표 작성 서비스'
                 dateStart='2024.02'
                 src={KyonggiTimeImage}
               >
