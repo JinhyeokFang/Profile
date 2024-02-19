@@ -55,7 +55,7 @@ export const ProjectsList = () => {
                 <TypeOrmSmallBadge />
               </Project>
               <Project
-                name='썰매 (개발중)'
+                name='썰매'
                 title='UMC Spring Boot 팀 프로젝트 (AWS ECS 무중단 자동 배포)'
                 link='/projects/Survey-Mate'
                 src={SurveyMateImage}

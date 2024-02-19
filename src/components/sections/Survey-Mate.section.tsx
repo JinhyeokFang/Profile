@@ -23,7 +23,6 @@ export const SurveyMateSection = () => {
                   ]}
                 >
                   Github: <a href="https://github.com/survey-mate/backend">https://github.com/survey-mate/backend</a><br/>
-                  Server: <a href="https://survey-mate-api.jinhy.uk/swagger-ui/index.html">https://survey-mate-api.jinhy.uk/swagger-ui/index.html</a>
                 </ProjectPageInfo>
                 <br />
                 <ProjectPageFunctions functions={[
