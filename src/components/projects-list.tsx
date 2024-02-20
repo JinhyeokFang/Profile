@@ -4,7 +4,7 @@ import { Project } from './project/project';
 import Cafe4MeImage from '../../public/screenshots/cafe4me/profile.png'
 import SumsumzipImage from '../../public/screenshots/sumsumzip/1.png'
 import ETAProjectImage from '../../public/screenshots/eta/profile.png'
-import KyonggiTimeImage from '../../public/screenshots/kyonggitime/profile.jpg'
+import KyonggiTimeImage from '../../public/screenshots/kyonggitime/profile.png'
 import SurveyMateImage from '../../public/screenshots/survey-mate/survey-mate.png'
 import ToMateImage from '../../public/screenshots/tomate/to.mate.png'
 import { LittleProject } from './project/little-project';

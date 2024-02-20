@@ -1,5 +1,5 @@
 import styles from '../../styles/sections.module.css'
-import profileImage from '../../../public/screenshots/kyonggitime/profile.jpg'
+import profileImage from '../../../public/screenshots/kyonggitime/profile.png'
 import significanceImage1 from '../../../public/screenshots/kyonggitime/1.png'
 import significanceImage2 from '../../../public/screenshots/kyonggitime/2.png'
 import significanceImage3 from '../../../public/screenshots/kyonggitime/3.png'
