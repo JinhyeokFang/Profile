@@ -4,6 +4,7 @@ import significanceImage1 from '../../../public/screenshots/kyonggitime/1.png'
 import significanceImage2 from '../../../public/screenshots/kyonggitime/2.png'
 import significanceImage3 from '../../../public/screenshots/kyonggitime/3.png'
 import significanceImage4 from '../../../public/screenshots/kyonggitime/4.png'
+import significanceImage5 from '../../../public/screenshots/kyonggitime/5.png'
 
 import { ProjectPageHeader } from '../project/header'
 import { ProjectPageInfo } from '../project/info'
@@ -19,14 +20,14 @@ export const KyonggiTimeSection = () => {
               <br />
               <article>
                 <ProjectPageInfo 
-                  description='4000명 이상의 누적 방문자, 하루 평균 440명의 이용자를 확보한 경기대 시간표 작성 서비스'
+                  description='16000명 이상의 누적 방문자, 하루 평균 660명의 이용자(2024.03.06 기준)를 확보한 경기대 강의 정보 / 시간표 서비스'
                   tags={[
                     'NestJS', 'MySQL', 'TypeORM', 'AWS EC2', 'AWS RDS', 'NextJS', 'Vercel'
                   ]}
                 >
                   사이트: <a href="https://kyonggiti.me">https://kyonggiti.me</a><br/>
-                  Github(Server): <a href="https://github.com/JinhyeokFang/kyonggi-univ-time-table-server">https://github.com/JinhyeokFang/kyonggi-univ-time-table-server</a><br/>
-                  Github(Client): <a href="https://github.com/JinhyeokFang/kyonggi-univ-time-table-client">https://github.com/JinhyeokFang/kyonggi-univ-time-table-client</a><br/>
+                  Github(Server): <a href="https://github.com/KyonggiTime/server">https://github.com/KyonggiTime/server</a><br/>
+                  Github(Client): <a href="https://github.com/KyonggiTime/client">https://github.com/KyonggiTime/client</a><br/>
                   개발과정 및 후기: <a href="https://jinhy.uk/kyonggitime">https://jinhy.uk/kyonggitime</a><br/>
                 </ProjectPageInfo>
                 <br />
@@ -39,7 +40,7 @@ export const KyonggiTimeSection = () => {
                   {
                     src: significanceImage1,
                     title: '1. 사용자 대상 서비스 제작 및 운영',
-                    description: '',
+                    description: 'CS 문의 및 유지 보수, 새 기능 개발, 무중단 배포, 검색 엔진 최적화',
                   },
                   {
                     src: significanceImage2,
@@ -53,8 +54,13 @@ export const KyonggiTimeSection = () => {
                   },
                   {
                     src: significanceImage4,
-                    title: '4. 모바일 UI 및 PWA 앱 설치 지원',
-                    description: '',
+                    title: '4. 소셜 로그인 추가',
+                    description: '구글 로그인 추가, Passport 기반',
+                  },
+                  {
+                    src: significanceImage5,
+                    title: '5. 모바일 UI 및 PWA 앱 설치 지원',
+                    description: '반응형 웹 및 PWA 설치 지원',
                   },
                 ]}/>
                 <br />
