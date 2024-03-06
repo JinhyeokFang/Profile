@@ -31,18 +31,6 @@ export const ProjectsList = () => {
           <h1 className={styles.title}>프로젝트</h1>
           <ul className={styles.projectList}>
               <Project
-                name='ETA'
-                link='/projects/ETA'
-                title='NestJS 기반 회의 일정 관리 서비스 (5th 너디너리 해커톤 3등)'
-                dateStart='2023.08'
-                src={ETAProjectImage}
-              >
-                <NestJsSmallBadge />
-                <MysqlSmallBadge />
-                <AwsSmallBadge />
-                <TypeOrmSmallBadge />
-              </Project>
-              <Project
                 name='경기타임 (개발, 운영중)'
                 link='/projects/kyonggi-time'
                 title='[누적 방문 16000+] 경기대 강의 정보 / 시간표 서비스'
@@ -67,6 +55,18 @@ export const ProjectsList = () => {
                 <JavaSmallBadge />
                 <AwsSmallBadge />
                 <MysqlSmallBadge />
+              </Project>
+              <Project
+                name='ETA'
+                link='/projects/ETA'
+                title='NestJS 기반 회의 일정 관리 서비스 (5th 너디너리 해커톤 3등)'
+                dateStart='2023.08'
+                src={ETAProjectImage}
+              >
+                <NestJsSmallBadge />
+                <MysqlSmallBadge />
+                <AwsSmallBadge />
+                <TypeOrmSmallBadge />
               </Project>
               <Project
                 name='To.Mate'
