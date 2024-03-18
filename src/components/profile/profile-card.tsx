@@ -12,7 +12,8 @@ export const ProfileCard = () => {
             <div>
                 <h1 className={styles.name}><span>도전하는 백엔드 방진혁</span></h1>
                 <p className={styles.description}>
-                    같은 기능을 만들 때도 다른 방법, 기술을 <b>도전</b>합니다.<br/>
+                    사용자를 위한 서비스에 <b>몰입</b>하는 개발자<br/>
+                    <b>열정</b>가득한 도전하는 백엔드<br/>
                 </p>
             </div>
         </section>

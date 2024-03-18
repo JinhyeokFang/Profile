@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import { Space } from '@/components/space'
 import { Profile } from '@/components/profile'
-import { ProjectsList } from '@/components/projects-list'
 import { Footer } from '@/components/footer'
 import { FAB } from '@/components/fab'
 import { Analytics } from '@vercel/analytics/react';
@@ -26,7 +25,7 @@ export default function Index() {
         <FAB />
         <Space />
         <Profile />
-        <ProjectsList />
+        <Space />
         <Footer />
         <Analytics />
       </main>

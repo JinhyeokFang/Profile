@@ -5,7 +5,7 @@ export const ProfileInformation = () => {
         <>
           <section>
               <p className={styles.link}><a href='https://github.com/JinhyeokFang'>github.com/JinhyeokFang</a></p>
-              <p className={styles.link}>hyeki0206@naver.com, jinhyeokfang@gmail.com</p>
+              <p className={styles.link}>hyeki0206@naver.com</p>
           </section>
           <section>
               <p className={styles.school}><b>경기대</b> 컴퓨터공학전공 재학</p>
